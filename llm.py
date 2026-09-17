@@ -74,6 +74,13 @@ def _jumlah_kata(teks):
     return len(str(teks).split())
 
 
+def _ada_isi(teks):
+    """Cek teks bukan cuma string kosong/whitespace. Tanpa ini, JSON yang
+    strukturnya benar tapi field-nya "" tetap lolos validasi dan tampil
+    sebagai sumber AI walau sebenarnya kosong."""
+    return isinstance(teks, str) and teks.strip() != ""
+
+
 # ---------------------------------------------------------------- B6 insight
 FITUR_PER_LABEL = {
     "Defisit": ["Bayar Tagihan", "Life Goals", "QRIS"],
@@ -85,10 +92,12 @@ FITUR_PER_LABEL = {
 
 
 def validasi_insight(hasil, fitur):
-    """B6.4: cek struktur, jumlah item, dan fitur_wondr."""
+    """B6.4: cek struktur, jumlah item, fitur_wondr, dan isi teks tidak kosong."""
     if not isinstance(hasil, dict):
         return False
     if not all(k in hasil for k in ["ringkasan", "insight", "saran", "pesan_diri_depan"]):
+        return False
+    if not (_ada_isi(hasil["ringkasan"]) and _ada_isi(hasil["pesan_diri_depan"])):
         return False
     if not (isinstance(hasil["insight"], list) and len(hasil["insight"]) == 3):
         return False
@@ -97,8 +106,12 @@ def validasi_insight(hasil, fitur):
     for i in hasil["insight"]:
         if not isinstance(i, dict) or not {"judul", "penjelasan", "data"} <= i.keys():
             return False
+        if not (_ada_isi(i["judul"]) and _ada_isi(i["penjelasan"]) and _ada_isi(i["data"])):
+            return False
     for s in hasil["saran"]:
         if not isinstance(s, dict) or not {"aksi", "fitur_wondr", "alasan"} <= s.keys():
+            return False
+        if not (_ada_isi(s["aksi"]) and _ada_isi(s["alasan"])):
             return False
         if s["fitur_wondr"] not in fitur:
             return False
@@ -167,6 +180,7 @@ Format:
 # ---------------------------------------------------------------- C5 teks advice
 def validasi_advice(item):
     return (isinstance(item, dict) and {"judul", "pesan", "label_tombol"} <= item.keys()
+            and _ada_isi(item["judul"]) and _ada_isi(item["pesan"]) and _ada_isi(item["label_tombol"])
             and _jumlah_kata(item["judul"]) <= 8 and _jumlah_kata(item["pesan"]) <= 40)
 
 
