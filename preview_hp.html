@@ -139,10 +139,45 @@
     border-radius: 4px;
     color: #3f3f46;
   }
+
+  /* kolom ganti URL target -- localhost saat dev, link streamlit.app
+     setelah deploy. Tersimpan di localStorage biar tidak perlu diisi ulang. */
+  .urlbar {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+    max-width: 412px;
+  }
+  .urlbar input {
+    flex: 1;
+    padding: 9px 14px;
+    border: 1px solid #d4d4d8;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #3f3f46;
+    outline: none;
+  }
+  .urlbar input:focus {border-color: #FF8500;}
+  .urlbar button {
+    padding: 9px 16px;
+    border: none;
+    border-radius: 10px;
+    background: #FF8500;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .urlbar button:hover {background: #e67a00;}
 </style>
 </head>
 <body>
   <div class="label">wondr <b>by BNI</b> -- Preview Mobile</div>
+
+  <div class="urlbar">
+    <input id="targetUrl" type="text" placeholder="http://localhost:8503 atau https://....streamlit.app">
+    <button onclick="muatUlang()">Tampilkan</button>
+  </div>
 
   <div class="device-outer">
     <div class="device">
@@ -151,16 +186,36 @@
       <div class="vol-btn"></div>
       <div class="vol-btn mute"></div>
       <div class="screen">
-        <iframe src="http://localhost:8503" title="wondr mobile preview"></iframe>
+        <iframe id="previewFrame" title="wondr mobile preview"></iframe>
       </div>
       <div class="home-bar"></div>
     </div>
   </div>
 
   <p class="hint">
-    Pastikan server mobile sudah jalan dulu (<code>streamlit run app.py --server.port 8503</code>
-    di folder ini), lalu buka file ini langsung di browser. Kalau layar HP di atas kosong/putih,
-    berarti server belum jalan atau portnya berbeda -- cek dan sesuaikan port di atas.
+    Sekarang: pastikan server mobile jalan (<code>streamlit run app.py --server.port 8503</code>
+    di folder ini) -- URL default sudah <code>localhost:8503</code>.
+    Nanti setelah deploy ke Streamlit Cloud: paste link <code>....streamlit.app</code>
+    kamu di kolom atas, klik Tampilkan -- tersimpan otomatis untuk kunjungan berikutnya.
   </p>
+
+  <script>
+    const DEFAULT_URL = "http://localhost:8503";
+    const input = document.getElementById("targetUrl");
+    const iframe = document.getElementById("previewFrame");
+
+    function muatUlang() {
+      const v = input.value.trim();
+      if (!v) return;
+      iframe.src = v;
+      try { localStorage.setItem("wondr_preview_url", v); } catch (e) {}
+    }
+
+    let simpanan = "";
+    try { simpanan = localStorage.getItem("wondr_preview_url") || ""; } catch (e) {}
+    input.value = simpanan || DEFAULT_URL;
+    iframe.src = input.value;
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter") muatUlang(); });
+  </script>
 </body>
 </html>
