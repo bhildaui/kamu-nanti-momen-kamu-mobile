@@ -44,15 +44,15 @@ def panggil(system, messages, api_key=None, max_tokens=1200):
         thinking_config=types.ThinkingConfig(thinking_budget=0),
         http_options=types.HttpOptions(timeout=TIMEOUT * 1000),
     )
-    for percobaan in range(2):                      # server Gemini kadang 503/504 sesaat
+    for percobaan in range(3):                       # server Gemini kadang 503/504 sesaat
         try:
             res = client.models.generate_content(model=MODEL, contents=contents, config=config)
             return res.text
         except Exception as e:  # jaringan, key salah, kuota habis, server sibuk
             print("LLM error:", e)
             kode = getattr(e, "code", None) or getattr(e, "status_code", None)
-            if percobaan == 0 and kode in (503, 504):
-                time.sleep(1.5)
+            if percobaan < 2 and kode in (503, 504):
+                time.sleep(1.5 * (percobaan + 1))
                 continue
             return None
 
