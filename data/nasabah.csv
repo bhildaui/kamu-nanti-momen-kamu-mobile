@@ -1,0 +1,1001 @@
+user_id,nama,gender,usia,kota,pekerjaan,pendapatan_bulanan,saldo_saat_ini,tujuan,usia_target_tujuan,persona
+U001,Andi,pria,27,Jakarta,Karyawan swasta,9000000,22779195,Dana pensiun nyaman,60,Penabung Disiplin
+U002,Bima,pria,25,Bandung,Karyawan swasta,7000000,8434412,Beli motor baru,27,Numpang Lewat
+U003,Citra,wanita,24,Jakarta,Karyawan swasta,7000000,9563098,Beli rumah,35,Konsumtif
+U004,Dodi,pria,29,Surabaya,Wiraswasta,6000000,3093849,Lunas cicilan,35,Defisit
+U005,Eka,wanita,23,Jakarta,Karyawan baru,4500000,10279212,Dana darurat,30,Berkembang
+U0006,Nasabah0006,pria,38,Surabaya,Wiraswasta,4500000,3060642,Menikah,49,Defisit
+U0007,Nasabah0007,wanita,32,Semarang,Wiraswasta,4000000,3160524,Beli rumah,53,Defisit
+U0008,Nasabah0008,pria,20,Bandung,PNS,8000000,25333635,Dana pensiun,37,Konsumtif
+U0009,Nasabah0009,wanita,25,Medan,Guru,4000000,4414234,Beli mobil,30,Defisit
+U0010,Nasabah0010,pria,27,Yogyakarta,Karyawan BUMN,8000000,11983340,Dana pensiun,44,Berkembang
+U0011,Nasabah0011,wanita,24,Jakarta,Freelancer,9000000,20401708,Beli mobil,27,Konsumtif
+U0012,Nasabah0012,pria,42,Yogyakarta,Wiraswasta,8000000,15594327,Liburan,59,Konsumtif
+U0013,Nasabah0013,wanita,23,Surabaya,Wiraswasta,12000000,17377405,Dana darurat,33,Berkembang
+U0014,Nasabah0014,pria,41,Surabaya,PNS,5000000,9564356,Beli mobil,60,Berkembang
+U0015,Nasabah0015,wanita,20,Medan,Karyawan swasta,7000000,8014951,Menikah,34,Berkembang
+U0016,Nasabah0016,pria,20,Surabaya,Wiraswasta,4000000,4470745,Dana pensiun,43,Defisit
+U0017,Nasabah0017,wanita,20,Jakarta,Karyawan BUMN,12000000,34071545,Dana darurat,30,Konsumtif
+U0018,Nasabah0018,pria,20,Denpasar,Freelancer,9000000,24830643,Dana pendidikan anak,28,Berkembang
+U0019,Nasabah0019,wanita,44,Semarang,PNS,9000000,15014349,Dana pensiun,52,Penabung Disiplin
+U0020,Nasabah0020,pria,30,Makassar,Wiraswasta,4500000,9237798,Beli rumah,48,Penabung Disiplin
+U0021,Nasabah0021,wanita,36,Yogyakarta,Wiraswasta,6000000,11904188,Beli mobil,46,Penabung Disiplin
+U0022,Nasabah0022,pria,31,Jakarta,Freelancer,10000000,18037347,Dana pensiun,37,Penabung Disiplin
+U0023,Nasabah0023,wanita,27,Medan,Guru,8000000,21112224,Liburan,50,Berkembang
+U0024,Nasabah0024,pria,20,Makassar,Freelancer,6000000,6315588,Liburan,33,Berkembang
+U0025,Nasabah0025,wanita,31,Jakarta,Guru,8000000,9114908,Dana pensiun,37,Konsumtif
+U0026,Nasabah0026,pria,32,Makassar,Karyawan swasta,4500000,8330837,Beli mobil,38,Penabung Disiplin
+U0027,Nasabah0027,wanita,30,Medan,Wiraswasta,10000000,18448569,Beli rumah,47,Berkembang
+U0028,Nasabah0028,pria,31,Yogyakarta,Karyawan swasta,4500000,8472181,Menikah,39,Berkembang
+U0029,Nasabah0029,wanita,24,Makassar,Guru,6000000,9669320,Menikah,33,Konsumtif
+U0030,Nasabah0030,pria,45,Jakarta,Karyawan swasta,4000000,4623470,Dana pendidikan anak,65,Berkembang
+U0031,Nasabah0031,wanita,31,Yogyakarta,Guru,4500000,3210537,Dana pendidikan anak,54,Defisit
+U0032,Nasabah0032,pria,31,Jakarta,Karyawan BUMN,8000000,12606988,Menikah,55,Konsumtif
+U0033,Nasabah0033,wanita,28,Semarang,Karyawan BUMN,12000000,22788565,Dana pendidikan anak,34,Penabung Disiplin
+U0034,Nasabah0034,pria,20,Medan,Guru,12000000,34617017,Dana pensiun,38,Berkembang
+U0035,Nasabah0035,wanita,32,Denpasar,Karyawan BUMN,4500000,4346170,Liburan,37,Defisit
+U0036,Nasabah0036,pria,31,Jakarta,Freelancer,10000000,15167478,Beli mobil,49,Konsumtif
+U0037,Nasabah0037,wanita,20,Makassar,Wiraswasta,10000000,27658980,Liburan,42,Berkembang
+U0038,Nasabah0038,pria,34,Bandung,Karyawan BUMN,9000000,19237353,Dana darurat,49,Numpang Lewat
+U0039,Nasabah0039,wanita,26,Makassar,Guru,8000000,14495006,Beli rumah,35,Berkembang
+U0040,Nasabah0040,pria,30,Bandung,Karyawan swasta,6000000,9740653,Liburan,39,Penabung Disiplin
+U0041,Nasabah0041,wanita,40,Surabaya,Freelancer,9000000,22477989,Beli mobil,59,Penabung Disiplin
+U0042,Nasabah0042,pria,20,Semarang,Karyawan swasta,5000000,11405614,Beli rumah,23,Penabung Disiplin
+U0043,Nasabah0043,wanita,33,Jakarta,Wiraswasta,9000000,25373065,Dana pensiun,51,Penabung Disiplin
+U0044,Nasabah0044,pria,40,Surabaya,PNS,12000000,20137828,Dana darurat,43,Numpang Lewat
+U0045,Nasabah0045,wanita,29,Medan,Karyawan swasta,10000000,26916215,Beli rumah,45,Konsumtif
+U0046,Nasabah0046,pria,28,Yogyakarta,Karyawan BUMN,7000000,6988384,Liburan,48,Berkembang
+U0047,Nasabah0047,wanita,23,Bandung,Freelancer,12000000,26117042,Dana pensiun,45,Konsumtif
+U0048,Nasabah0048,pria,20,Semarang,Wiraswasta,6000000,6505365,Dana darurat,43,Defisit
+U0049,Nasabah0049,wanita,25,Medan,PNS,12000000,38151649,Beli mobil,30,Konsumtif
+U0050,Nasabah0050,pria,28,Jakarta,Karyawan BUMN,12000000,34509454,Menikah,36,Penabung Disiplin
+U0051,Nasabah0051,wanita,37,Jakarta,Wiraswasta,7000000,13469188,Beli rumah,51,Penabung Disiplin
+U0052,Nasabah0052,pria,28,Yogyakarta,Karyawan swasta,12000000,23077723,Liburan,37,Penabung Disiplin
+U0053,Nasabah0053,wanita,26,Denpasar,Karyawan BUMN,9000000,22561038,Beli rumah,34,Penabung Disiplin
+U0054,Nasabah0054,pria,39,Yogyakarta,Wiraswasta,4500000,3461197,Menikah,57,Defisit
+U0055,Nasabah0055,wanita,25,Medan,PNS,12000000,28785784,Menikah,30,Penabung Disiplin
+U0056,Nasabah0056,pria,26,Bandung,Freelancer,9000000,25632735,Liburan,47,Penabung Disiplin
+U0057,Nasabah0057,wanita,36,Denpasar,Freelancer,10000000,26588909,Dana pendidikan anak,47,Berkembang
+U0058,Nasabah0058,pria,39,Jakarta,PNS,12000000,13287295,Beli rumah,43,Numpang Lewat
+U0059,Nasabah0059,wanita,24,Jakarta,Karyawan BUMN,4000000,1025282,Beli rumah,42,Defisit
+U0060,Nasabah0060,pria,28,Medan,Karyawan BUMN,10000000,15437008,Liburan,46,Berkembang
+U0061,Nasabah0061,wanita,39,Yogyakarta,Karyawan BUMN,12000000,18490984,Dana pensiun,52,Numpang Lewat
+U0062,Nasabah0062,pria,36,Semarang,Guru,10000000,24853040,Liburan,43,Berkembang
+U0063,Nasabah0063,wanita,23,Makassar,Wiraswasta,10000000,23503003,Menikah,36,Berkembang
+U0064,Nasabah0064,pria,33,Surabaya,Freelancer,4000000,5713150,Beli mobil,39,Defisit
+U0065,Nasabah0065,wanita,33,Jakarta,Karyawan swasta,6000000,10385749,Dana darurat,39,Konsumtif
+U0066,Nasabah0066,pria,39,Yogyakarta,Karyawan BUMN,5000000,9915939,Beli mobil,43,Penabung Disiplin
+U0067,Nasabah0067,wanita,31,Semarang,Karyawan swasta,6000000,13261741,Dana darurat,46,Penabung Disiplin
+U0068,Nasabah0068,pria,32,Semarang,PNS,6000000,7635938,Dana pendidikan anak,43,Berkembang
+U0069,Nasabah0069,wanita,38,Surabaya,Karyawan BUMN,10000000,20119838,Dana pendidikan anak,61,Penabung Disiplin
+U0070,Nasabah0070,pria,23,Jakarta,Freelancer,4000000,5399198,Beli rumah,45,Berkembang
+U0071,Nasabah0071,wanita,20,Denpasar,PNS,8000000,18482082,Beli mobil,44,Penabung Disiplin
+U0072,Nasabah0072,pria,47,Medan,Freelancer,6000000,9094845,Dana pendidikan anak,63,Berkembang
+U0073,Nasabah0073,wanita,30,Bandung,Karyawan BUMN,12000000,30000816,Beli rumah,43,Penabung Disiplin
+U0074,Nasabah0074,pria,40,Denpasar,PNS,10000000,23259258,Beli rumah,50,Berkembang
+U0075,Nasabah0075,wanita,20,Yogyakarta,PNS,5000000,3805594,Beli mobil,29,Defisit
+U0076,Nasabah0076,pria,30,Yogyakarta,PNS,4000000,8016666,Dana pendidikan anak,46,Penabung Disiplin
+U0077,Nasabah0077,wanita,31,Bandung,Wiraswasta,7000000,9092036,Liburan,53,Defisit
+U0078,Nasabah0078,pria,25,Makassar,Karyawan swasta,4500000,2756805,Liburan,30,Defisit
+U0079,Nasabah0079,wanita,22,Makassar,Wiraswasta,12000000,26045899,Dana pensiun,39,Penabung Disiplin
+U0080,Nasabah0080,pria,20,Denpasar,Karyawan BUMN,9000000,16697423,Dana pendidikan anak,23,Berkembang
+U0081,Nasabah0081,wanita,35,Surabaya,Karyawan swasta,5000000,7262014,Beli mobil,56,Penabung Disiplin
+U0082,Nasabah0082,pria,34,Semarang,Freelancer,8000000,12646384,Dana pendidikan anak,55,Berkembang
+U0083,Nasabah0083,wanita,35,Makassar,Wiraswasta,12000000,35087821,Beli rumah,54,Penabung Disiplin
+U0084,Nasabah0084,pria,26,Medan,PNS,7000000,16411650,Menikah,35,Berkembang
+U0085,Nasabah0085,wanita,23,Semarang,PNS,5000000,8475938,Menikah,42,Berkembang
+U0086,Nasabah0086,pria,33,Semarang,Wiraswasta,4000000,6577767,Beli rumah,54,Penabung Disiplin
+U0087,Nasabah0087,wanita,20,Makassar,Freelancer,4500000,2312689,Menikah,42,Defisit
+U0088,Nasabah0088,pria,22,Yogyakarta,PNS,7000000,19613390,Dana pensiun,44,Konsumtif
+U0089,Nasabah0089,wanita,33,Jakarta,Guru,4000000,6082913,Liburan,44,Berkembang
+U0090,Nasabah0090,pria,28,Bandung,Guru,8000000,11639079,Beli mobil,48,Berkembang
+U0091,Nasabah0091,wanita,25,Surabaya,Freelancer,7000000,4542384,Menikah,29,Defisit
+U0092,Nasabah0092,pria,24,Jakarta,PNS,8000000,15081297,Liburan,40,Berkembang
+U0093,Nasabah0093,wanita,33,Bandung,Karyawan BUMN,12000000,24775036,Dana pensiun,44,Berkembang
+U0094,Nasabah0094,pria,35,Makassar,Wiraswasta,5000000,8423272,Beli rumah,58,Berkembang
+U0095,Nasabah0095,wanita,30,Surabaya,PNS,9000000,17981102,Liburan,34,Penabung Disiplin
+U0096,Nasabah0096,pria,31,Surabaya,Karyawan swasta,7000000,11607471,Menikah,39,Berkembang
+U0097,Nasabah0097,wanita,42,Makassar,Freelancer,10000000,22780159,Dana pensiun,53,Penabung Disiplin
+U0098,Nasabah0098,pria,47,Bandung,Freelancer,4000000,2198695,Beli mobil,51,Defisit
+U0099,Nasabah0099,wanita,36,Medan,Karyawan swasta,7000000,4272956,Dana pensiun,58,Numpang Lewat
+U0100,Nasabah0100,pria,45,Denpasar,Karyawan BUMN,10000000,22195434,Beli rumah,67,Berkembang
+U0101,Nasabah0101,wanita,28,Makassar,Freelancer,5000000,5169196,Beli rumah,31,Defisit
+U0102,Nasabah0102,pria,27,Denpasar,Karyawan BUMN,4000000,3220307,Menikah,42,Defisit
+U0103,Nasabah0103,wanita,23,Yogyakarta,Karyawan swasta,4000000,3437852,Dana pendidikan anak,41,Numpang Lewat
+U0104,Nasabah0104,pria,21,Makassar,Wiraswasta,4000000,2660870,Dana pensiun,37,Defisit
+U0105,Nasabah0105,wanita,27,Surabaya,PNS,12000000,24489718,Liburan,43,Berkembang
+U0106,Nasabah0106,pria,26,Semarang,Wiraswasta,5000000,8639414,Beli rumah,46,Konsumtif
+U0107,Nasabah0107,wanita,20,Semarang,Guru,8000000,16298774,Menikah,25,Penabung Disiplin
+U0108,Nasabah0108,pria,29,Jakarta,Freelancer,7000000,15388802,Liburan,50,Konsumtif
+U0109,Nasabah0109,wanita,20,Semarang,Freelancer,6000000,12687927,Liburan,24,Penabung Disiplin
+U0110,Nasabah0110,pria,31,Denpasar,Karyawan swasta,10000000,17170188,Dana pendidikan anak,41,Berkembang
+U0111,Nasabah0111,wanita,26,Denpasar,Karyawan swasta,8000000,17326537,Dana darurat,34,Berkembang
+U0112,Nasabah0112,pria,28,Makassar,Karyawan BUMN,8000000,22001421,Dana pendidikan anak,42,Penabung Disiplin
+U0113,Nasabah0113,wanita,23,Jakarta,Guru,8000000,11713435,Dana pendidikan anak,42,Konsumtif
+U0114,Nasabah0114,pria,46,Bandung,Wiraswasta,4500000,10931576,Beli mobil,63,Penabung Disiplin
+U0115,Nasabah0115,wanita,32,Jakarta,Karyawan BUMN,12000000,32428729,Liburan,53,Berkembang
+U0116,Nasabah0116,pria,31,Semarang,Freelancer,5000000,2430278,Beli mobil,47,Defisit
+U0117,Nasabah0117,wanita,37,Makassar,Freelancer,7000000,16816291,Dana pendidikan anak,50,Penabung Disiplin
+U0118,Nasabah0118,pria,23,Jakarta,Wiraswasta,6000000,10229666,Dana pendidikan anak,38,Penabung Disiplin
+U0119,Nasabah0119,wanita,25,Semarang,Guru,12000000,21568074,Dana darurat,38,Penabung Disiplin
+U0120,Nasabah0120,pria,35,Makassar,Freelancer,4000000,2722185,Dana pensiun,45,Defisit
+U0121,Nasabah0121,wanita,26,Makassar,Karyawan BUMN,8000000,13019559,Menikah,36,Konsumtif
+U0122,Nasabah0122,pria,27,Medan,Wiraswasta,4000000,6003612,Liburan,49,Penabung Disiplin
+U0123,Nasabah0123,wanita,30,Surabaya,Karyawan BUMN,4000000,4087255,Dana pensiun,40,Konsumtif
+U0124,Nasabah0124,pria,29,Surabaya,Freelancer,9000000,24011905,Beli mobil,45,Konsumtif
+U0125,Nasabah0125,wanita,41,Makassar,Freelancer,9000000,6824201,Dana pensiun,56,Numpang Lewat
+U0126,Nasabah0126,pria,25,Denpasar,Karyawan BUMN,7000000,12126586,Dana pensiun,48,Berkembang
+U0127,Nasabah0127,wanita,34,Semarang,Freelancer,6000000,5343675,Menikah,49,Defisit
+U0128,Nasabah0128,pria,24,Bandung,Karyawan swasta,4500000,3649962,Beli rumah,30,Defisit
+U0129,Nasabah0129,wanita,41,Jakarta,Karyawan swasta,9000000,19147792,Beli mobil,44,Konsumtif
+U0130,Nasabah0130,pria,34,Makassar,Wiraswasta,4000000,3668308,Beli rumah,44,Penabung Disiplin
+U0131,Nasabah0131,wanita,20,Semarang,PNS,6000000,5279646,Dana darurat,33,Berkembang
+U0132,Nasabah0132,pria,36,Yogyakarta,Karyawan swasta,8000000,3892656,Dana pensiun,60,Numpang Lewat
+U0133,Nasabah0133,wanita,39,Medan,PNS,9000000,24222487,Menikah,59,Berkembang
+U0134,Nasabah0134,pria,21,Bandung,Guru,7000000,13425815,Liburan,43,Berkembang
+U0135,Nasabah0135,wanita,24,Yogyakarta,Guru,4500000,6179982,Menikah,43,Berkembang
+U0136,Nasabah0136,pria,30,Denpasar,PNS,9000000,10341409,Menikah,44,Numpang Lewat
+U0137,Nasabah0137,wanita,28,Denpasar,Karyawan BUMN,9000000,10713495,Menikah,52,Berkembang
+U0138,Nasabah0138,pria,37,Denpasar,Karyawan swasta,9000000,14823334,Liburan,49,Numpang Lewat
+U0139,Nasabah0139,wanita,21,Yogyakarta,Wiraswasta,8000000,7408320,Liburan,44,Berkembang
+U0140,Nasabah0140,pria,25,Denpasar,Karyawan swasta,12000000,21739797,Dana pensiun,39,Berkembang
+U0141,Nasabah0141,wanita,34,Medan,Freelancer,10000000,19114104,Beli mobil,45,Berkembang
+U0142,Nasabah0142,pria,28,Medan,Karyawan BUMN,9000000,14520330,Beli mobil,49,Berkembang
+U0143,Nasabah0143,wanita,37,Bandung,Guru,10000000,18255249,Dana darurat,42,Numpang Lewat
+U0144,Nasabah0144,pria,34,Surabaya,Karyawan BUMN,10000000,26657418,Beli rumah,37,Konsumtif
+U0145,Nasabah0145,wanita,34,Makassar,Karyawan BUMN,8000000,10078529,Beli mobil,46,Berkembang
+U0146,Nasabah0146,pria,35,Surabaya,Freelancer,10000000,25051438,Dana pendidikan anak,42,Berkembang
+U0147,Nasabah0147,wanita,32,Jakarta,Karyawan BUMN,12000000,32128314,Beli mobil,43,Penabung Disiplin
+U0148,Nasabah0148,pria,21,Medan,Wiraswasta,4500000,2948614,Beli mobil,27,Defisit
+U0149,Nasabah0149,wanita,24,Semarang,PNS,9000000,26101374,Beli mobil,43,Penabung Disiplin
+U0150,Nasabah0150,pria,20,Yogyakarta,Karyawan swasta,4500000,6022857,Dana pendidikan anak,30,Konsumtif
+U0151,Nasabah0151,wanita,33,Jakarta,Karyawan swasta,6000000,6819927,Dana pensiun,40,Defisit
+U0152,Nasabah0152,pria,27,Medan,Karyawan BUMN,4000000,4814181,Dana pensiun,36,Penabung Disiplin
+U0153,Nasabah0153,wanita,33,Makassar,Guru,8000000,3159273,Dana pensiun,53,Defisit
+U0154,Nasabah0154,pria,26,Jakarta,Karyawan swasta,4500000,5553209,Liburan,32,Berkembang
+U0155,Nasabah0155,wanita,24,Surabaya,Karyawan swasta,12000000,31210212,Beli mobil,37,Penabung Disiplin
+U0156,Nasabah0156,pria,24,Makassar,Wiraswasta,8000000,19455846,Menikah,34,Berkembang
+U0157,Nasabah0157,wanita,20,Denpasar,Freelancer,10000000,19151018,Beli rumah,29,Konsumtif
+U0158,Nasabah0158,pria,29,Jakarta,Wiraswasta,4000000,1190288,Beli mobil,33,Defisit
+U0159,Nasabah0159,wanita,23,Yogyakarta,PNS,4000000,7609368,Dana pensiun,38,Numpang Lewat
+U0160,Nasabah0160,pria,26,Makassar,Freelancer,8000000,11451979,Beli rumah,47,Konsumtif
+U0161,Nasabah0161,wanita,33,Yogyakarta,Freelancer,5000000,8316783,Dana pensiun,43,Penabung Disiplin
+U0162,Nasabah0162,pria,24,Bandung,PNS,8000000,15933594,Beli rumah,28,Berkembang
+U0163,Nasabah0163,wanita,24,Jakarta,Wiraswasta,12000000,31195535,Dana darurat,36,Berkembang
+U0164,Nasabah0164,pria,30,Makassar,PNS,4500000,2714256,Dana darurat,37,Defisit
+U0165,Nasabah0165,wanita,37,Jakarta,Karyawan BUMN,6000000,2643103,Beli mobil,47,Defisit
+U0166,Nasabah0166,pria,27,Surabaya,Karyawan swasta,9000000,12338004,Dana pensiun,51,Numpang Lewat
+U0167,Nasabah0167,wanita,40,Jakarta,Wiraswasta,6000000,13267675,Beli mobil,48,Berkembang
+U0168,Nasabah0168,pria,23,Jakarta,Freelancer,5000000,11592810,Dana pendidikan anak,29,Penabung Disiplin
+U0169,Nasabah0169,wanita,25,Semarang,Wiraswasta,9000000,14302851,Menikah,29,Konsumtif
+U0170,Nasabah0170,pria,24,Makassar,Karyawan BUMN,4000000,4368009,Dana pensiun,47,Defisit
+U0171,Nasabah0171,wanita,29,Yogyakarta,Karyawan swasta,10000000,30269122,Beli mobil,39,Penabung Disiplin
+U0172,Nasabah0172,pria,27,Denpasar,Freelancer,4000000,5816172,Dana darurat,33,Numpang Lewat
+U0173,Nasabah0173,wanita,20,Surabaya,PNS,7000000,16929154,Dana pendidikan anak,41,Berkembang
+U0174,Nasabah0174,pria,26,Yogyakarta,Freelancer,9000000,16786603,Dana pendidikan anak,38,Berkembang
+U0175,Nasabah0175,wanita,28,Denpasar,Karyawan BUMN,8000000,10609199,Dana darurat,40,Berkembang
+U0176,Nasabah0176,pria,32,Jakarta,Wiraswasta,6000000,10319332,Beli rumah,36,Defisit
+U0177,Nasabah0177,wanita,25,Jakarta,Karyawan swasta,5000000,9196507,Dana pendidikan anak,46,Penabung Disiplin
+U0178,Nasabah0178,pria,32,Yogyakarta,Karyawan swasta,10000000,9917283,Beli rumah,43,Berkembang
+U0179,Nasabah0179,wanita,41,Jakarta,Karyawan BUMN,10000000,17918420,Dana pensiun,56,Berkembang
+U0180,Nasabah0180,pria,31,Bandung,Karyawan swasta,6000000,6767704,Menikah,52,Berkembang
+U0181,Nasabah0181,wanita,28,Bandung,Freelancer,5000000,9373341,Beli rumah,35,Penabung Disiplin
+U0182,Nasabah0182,pria,26,Bandung,Karyawan BUMN,4500000,5314466,Dana pensiun,50,Penabung Disiplin
+U0183,Nasabah0183,wanita,24,Denpasar,PNS,5000000,4001650,Liburan,37,Defisit
+U0184,Nasabah0184,pria,37,Makassar,Guru,4000000,7490620,Liburan,54,Konsumtif
+U0185,Nasabah0185,wanita,34,Makassar,PNS,12000000,14075085,Liburan,57,Numpang Lewat
+U0186,Nasabah0186,pria,26,Denpasar,Karyawan swasta,5000000,6788275,Dana darurat,34,Berkembang
+U0187,Nasabah0187,wanita,34,Yogyakarta,Karyawan swasta,6000000,14348309,Beli mobil,37,Penabung Disiplin
+U0188,Nasabah0188,pria,32,Medan,Wiraswasta,7000000,13037320,Dana darurat,50,Penabung Disiplin
+U0189,Nasabah0189,wanita,31,Semarang,Wiraswasta,4500000,5298195,Dana darurat,52,Penabung Disiplin
+U0190,Nasabah0190,pria,37,Yogyakarta,Guru,8000000,17875923,Liburan,45,Penabung Disiplin
+U0191,Nasabah0191,wanita,31,Yogyakarta,PNS,8000000,15549053,Beli rumah,51,Penabung Disiplin
+U0192,Nasabah0192,pria,43,Bandung,PNS,9000000,22135681,Liburan,46,Penabung Disiplin
+U0193,Nasabah0193,wanita,26,Semarang,Karyawan BUMN,4500000,5720852,Beli mobil,47,Konsumtif
+U0194,Nasabah0194,pria,20,Bandung,Karyawan swasta,8000000,20634597,Dana pensiun,43,Penabung Disiplin
+U0195,Nasabah0195,wanita,25,Yogyakarta,Freelancer,9000000,23837465,Menikah,49,Penabung Disiplin
+U0196,Nasabah0196,pria,32,Medan,Karyawan swasta,4000000,3512690,Dana darurat,56,Defisit
+U0197,Nasabah0197,wanita,42,Makassar,Guru,6000000,15770403,Beli rumah,61,Penabung Disiplin
+U0198,Nasabah0198,pria,31,Surabaya,Freelancer,6000000,9440819,Liburan,44,Berkembang
+U0199,Nasabah0199,wanita,38,Yogyakarta,Freelancer,7000000,12211207,Menikah,45,Berkembang
+U0200,Nasabah0200,pria,35,Jakarta,Karyawan BUMN,10000000,16790005,Beli rumah,45,Penabung Disiplin
+U0201,Nasabah0201,wanita,20,Surabaya,Karyawan BUMN,12000000,24813281,Liburan,37,Berkembang
+U0202,Nasabah0202,pria,40,Surabaya,Karyawan swasta,10000000,18474751,Beli mobil,60,Berkembang
+U0203,Nasabah0203,wanita,25,Semarang,Guru,9000000,23049152,Menikah,36,Penabung Disiplin
+U0204,Nasabah0204,pria,20,Yogyakarta,Guru,4500000,8792456,Dana darurat,36,Penabung Disiplin
+U0205,Nasabah0205,wanita,27,Yogyakarta,Guru,6000000,10720692,Dana pendidikan anak,44,Penabung Disiplin
+U0206,Nasabah0206,pria,38,Bandung,PNS,4000000,2474564,Dana pendidikan anak,59,Defisit
+U0207,Nasabah0207,wanita,29,Makassar,Karyawan BUMN,4000000,1851038,Dana pendidikan anak,43,Defisit
+U0208,Nasabah0208,pria,20,Denpasar,Freelancer,7000000,15993928,Dana pensiun,28,Numpang Lewat
+U0209,Nasabah0209,wanita,33,Semarang,PNS,12000000,31586184,Dana darurat,39,Konsumtif
+U0210,Nasabah0210,pria,34,Yogyakarta,Karyawan BUMN,6000000,6919384,Beli mobil,51,Berkembang
+U0211,Nasabah0211,wanita,20,Denpasar,Freelancer,6000000,13566595,Menikah,40,Konsumtif
+U0212,Nasabah0212,pria,23,Bandung,PNS,4000000,2667182,Dana pensiun,44,Defisit
+U0213,Nasabah0213,wanita,23,Jakarta,Karyawan BUMN,10000000,18029001,Menikah,38,Numpang Lewat
+U0214,Nasabah0214,pria,28,Denpasar,Guru,10000000,22487083,Dana pendidikan anak,38,Konsumtif
+U0215,Nasabah0215,wanita,45,Semarang,Freelancer,6000000,9639505,Beli rumah,50,Berkembang
+U0216,Nasabah0216,pria,36,Jakarta,Karyawan swasta,4000000,3793810,Beli mobil,48,Berkembang
+U0217,Nasabah0217,wanita,20,Surabaya,Karyawan swasta,6000000,9758471,Dana pensiun,33,Berkembang
+U0218,Nasabah0218,pria,23,Medan,PNS,12000000,30752140,Beli mobil,27,Penabung Disiplin
+U0219,Nasabah0219,wanita,20,Jakarta,PNS,8000000,11173271,Dana pendidikan anak,33,Penabung Disiplin
+U0220,Nasabah0220,pria,35,Yogyakarta,Freelancer,8000000,7126019,Dana pensiun,38,Defisit
+U0221,Nasabah0221,wanita,32,Bandung,Karyawan swasta,12000000,23987845,Dana pendidikan anak,35,Berkembang
+U0222,Nasabah0222,pria,33,Semarang,Freelancer,8000000,9711001,Beli mobil,44,Numpang Lewat
+U0223,Nasabah0223,wanita,39,Jakarta,Guru,12000000,26942012,Beli mobil,54,Konsumtif
+U0224,Nasabah0224,pria,35,Yogyakarta,Karyawan BUMN,4500000,2953911,Dana pensiun,46,Defisit
+U0225,Nasabah0225,wanita,24,Semarang,Wiraswasta,6000000,8730211,Dana darurat,39,Konsumtif
+U0226,Nasabah0226,pria,28,Jakarta,Wiraswasta,7000000,8868905,Beli mobil,51,Berkembang
+U0227,Nasabah0227,wanita,33,Yogyakarta,Karyawan BUMN,4000000,8133880,Dana darurat,55,Penabung Disiplin
+U0228,Nasabah0228,pria,38,Yogyakarta,Guru,12000000,33787055,Menikah,55,Konsumtif
+U0229,Nasabah0229,wanita,22,Surabaya,PNS,12000000,31651729,Dana pensiun,30,Konsumtif
+U0230,Nasabah0230,pria,20,Makassar,Karyawan swasta,5000000,7423717,Dana darurat,42,Penabung Disiplin
+U0231,Nasabah0231,wanita,41,Surabaya,Guru,7000000,17569045,Dana pendidikan anak,56,Penabung Disiplin
+U0232,Nasabah0232,pria,31,Denpasar,Freelancer,10000000,18876585,Dana darurat,43,Berkembang
+U0233,Nasabah0233,wanita,36,Denpasar,Karyawan BUMN,8000000,15497306,Menikah,42,Berkembang
+U0234,Nasabah0234,pria,37,Medan,Freelancer,6000000,5944980,Beli mobil,46,Berkembang
+U0235,Nasabah0235,wanita,23,Surabaya,Karyawan BUMN,5000000,6100864,Beli rumah,37,Defisit
+U0236,Nasabah0236,pria,26,Semarang,Guru,5000000,8820431,Beli rumah,47,Berkembang
+U0237,Nasabah0237,wanita,34,Yogyakarta,Karyawan swasta,6000000,4989833,Dana darurat,49,Berkembang
+U0238,Nasabah0238,pria,28,Yogyakarta,Guru,10000000,27085298,Beli rumah,47,Berkembang
+U0239,Nasabah0239,wanita,21,Makassar,Karyawan BUMN,12000000,24205701,Liburan,25,Penabung Disiplin
+U0240,Nasabah0240,pria,24,Jakarta,PNS,7000000,9325354,Dana pensiun,45,Defisit
+U0241,Nasabah0241,wanita,25,Surabaya,Karyawan swasta,10000000,20362381,Dana pendidikan anak,43,Berkembang
+U0242,Nasabah0242,pria,31,Semarang,Karyawan swasta,4500000,3270913,Liburan,49,Defisit
+U0243,Nasabah0243,wanita,26,Yogyakarta,PNS,10000000,17711828,Dana pendidikan anak,45,Numpang Lewat
+U0244,Nasabah0244,pria,40,Semarang,Karyawan BUMN,8000000,16378799,Beli mobil,56,Numpang Lewat
+U0245,Nasabah0245,wanita,29,Medan,Freelancer,10000000,25468797,Dana pendidikan anak,41,Penabung Disiplin
+U0246,Nasabah0246,pria,31,Yogyakarta,Freelancer,5000000,4344490,Dana pensiun,42,Defisit
+U0247,Nasabah0247,wanita,33,Medan,Karyawan BUMN,9000000,26257189,Liburan,52,Konsumtif
+U0248,Nasabah0248,pria,31,Makassar,Guru,7000000,8665783,Menikah,53,Berkembang
+U0249,Nasabah0249,wanita,40,Yogyakarta,Karyawan swasta,12000000,23225520,Liburan,52,Berkembang
+U0250,Nasabah0250,pria,28,Denpasar,Karyawan BUMN,10000000,21020457,Liburan,52,Konsumtif
+U0251,Nasabah0251,wanita,20,Medan,Wiraswasta,6000000,11546782,Dana pensiun,26,Konsumtif
+U0252,Nasabah0252,pria,37,Semarang,PNS,10000000,24462009,Dana pendidikan anak,46,Penabung Disiplin
+U0253,Nasabah0253,wanita,23,Medan,Wiraswasta,12000000,23324087,Dana darurat,39,Numpang Lewat
+U0254,Nasabah0254,pria,39,Jakarta,Karyawan BUMN,9000000,18287943,Dana darurat,49,Penabung Disiplin
+U0255,Nasabah0255,wanita,22,Medan,Wiraswasta,4000000,3571746,Dana pensiun,36,Defisit
+U0256,Nasabah0256,pria,36,Jakarta,Karyawan BUMN,10000000,15395790,Liburan,43,Konsumtif
+U0257,Nasabah0257,wanita,28,Surabaya,Karyawan swasta,6000000,5673359,Dana pensiun,39,Defisit
+U0258,Nasabah0258,pria,47,Jakarta,Freelancer,4000000,5004705,Menikah,55,Berkembang
+U0259,Nasabah0259,wanita,24,Bandung,Karyawan BUMN,12000000,22564704,Beli mobil,47,Penabung Disiplin
+U0260,Nasabah0260,pria,20,Surabaya,Guru,6000000,13657770,Liburan,32,Penabung Disiplin
+U0261,Nasabah0261,wanita,20,Jakarta,Karyawan BUMN,12000000,35610229,Dana pensiun,44,Berkembang
+U0262,Nasabah0262,pria,28,Yogyakarta,PNS,10000000,21836384,Dana pendidikan anak,52,Penabung Disiplin
+U0263,Nasabah0263,wanita,35,Makassar,PNS,4500000,7021733,Beli rumah,39,Numpang Lewat
+U0264,Nasabah0264,pria,33,Medan,Karyawan swasta,4000000,2745460,Beli rumah,51,Defisit
+U0265,Nasabah0265,wanita,26,Semarang,PNS,8000000,16067432,Liburan,43,Penabung Disiplin
+U0266,Nasabah0266,pria,35,Surabaya,Wiraswasta,8000000,19800257,Dana pendidikan anak,47,Berkembang
+U0267,Nasabah0267,wanita,30,Medan,PNS,5000000,2755888,Dana darurat,35,Berkembang
+U0268,Nasabah0268,pria,23,Denpasar,Guru,4500000,5904084,Dana darurat,30,Numpang Lewat
+U0269,Nasabah0269,wanita,30,Jakarta,PNS,5000000,9690224,Dana pendidikan anak,40,Penabung Disiplin
+U0270,Nasabah0270,pria,23,Makassar,Karyawan BUMN,4500000,8163528,Beli mobil,30,Penabung Disiplin
+U0271,Nasabah0271,wanita,25,Yogyakarta,Freelancer,12000000,33357713,Menikah,36,Konsumtif
+U0272,Nasabah0272,pria,39,Makassar,PNS,6000000,4353997,Dana darurat,51,Defisit
+U0273,Nasabah0273,wanita,38,Surabaya,Freelancer,6000000,4283164,Dana darurat,44,Defisit
+U0274,Nasabah0274,pria,25,Denpasar,Guru,5000000,4456243,Liburan,34,Defisit
+U0275,Nasabah0275,wanita,33,Jakarta,Freelancer,8000000,18084995,Dana pendidikan anak,44,Penabung Disiplin
+U0276,Nasabah0276,pria,27,Makassar,Guru,8000000,17376861,Liburan,43,Konsumtif
+U0277,Nasabah0277,wanita,32,Yogyakarta,Karyawan swasta,4500000,9021253,Beli mobil,54,Penabung Disiplin
+U0278,Nasabah0278,pria,24,Bandung,Guru,4500000,3929065,Dana darurat,32,Konsumtif
+U0279,Nasabah0279,wanita,38,Jakarta,Wiraswasta,12000000,31224881,Menikah,46,Konsumtif
+U0280,Nasabah0280,pria,32,Jakarta,PNS,6000000,12615509,Liburan,56,Konsumtif
+U0281,Nasabah0281,wanita,38,Jakarta,Karyawan BUMN,4000000,7277005,Dana pendidikan anak,51,Konsumtif
+U0282,Nasabah0282,pria,36,Denpasar,Wiraswasta,10000000,23332428,Beli rumah,42,Berkembang
+U0283,Nasabah0283,wanita,36,Makassar,Guru,5000000,6222097,Beli mobil,40,Berkembang
+U0284,Nasabah0284,pria,39,Semarang,Wiraswasta,4000000,3521897,Dana pensiun,50,Defisit
+U0285,Nasabah0285,wanita,31,Surabaya,Guru,8000000,11178895,Beli mobil,42,Numpang Lewat
+U0286,Nasabah0286,pria,42,Medan,Freelancer,8000000,16615664,Beli mobil,47,Konsumtif
+U0287,Nasabah0287,wanita,37,Yogyakarta,Guru,4000000,2547119,Beli mobil,45,Defisit
+U0288,Nasabah0288,pria,23,Medan,PNS,4500000,4519893,Beli mobil,30,Konsumtif
+U0289,Nasabah0289,wanita,21,Denpasar,Guru,8000000,13178689,Menikah,25,Berkembang
+U0290,Nasabah0290,pria,38,Bandung,Karyawan BUMN,9000000,14204149,Dana pendidikan anak,47,Numpang Lewat
+U0291,Nasabah0291,wanita,31,Bandung,Freelancer,10000000,21611688,Dana pensiun,46,Berkembang
+U0292,Nasabah0292,pria,31,Yogyakarta,Wiraswasta,5000000,4571515,Liburan,37,Defisit
+U0293,Nasabah0293,wanita,41,Medan,Karyawan swasta,12000000,24383788,Menikah,61,Penabung Disiplin
+U0294,Nasabah0294,pria,37,Jakarta,PNS,6000000,12706138,Menikah,47,Berkembang
+U0295,Nasabah0295,wanita,40,Surabaya,Karyawan swasta,4500000,5930359,Beli mobil,60,Berkembang
+U0296,Nasabah0296,pria,38,Bandung,PNS,6000000,4065601,Dana pensiun,46,Defisit
+U0297,Nasabah0297,wanita,24,Medan,Wiraswasta,9000000,19792963,Dana pendidikan anak,33,Berkembang
+U0298,Nasabah0298,pria,35,Jakarta,Freelancer,7000000,11407117,Dana pendidikan anak,58,Berkembang
+U0299,Nasabah0299,wanita,24,Semarang,Freelancer,4000000,3511974,Dana pensiun,47,Defisit
+U0300,Nasabah0300,pria,34,Denpasar,Wiraswasta,6000000,14310394,Beli rumah,38,Penabung Disiplin
+U0301,Nasabah0301,wanita,37,Yogyakarta,Guru,8000000,17506505,Beli mobil,49,Berkembang
+U0302,Nasabah0302,pria,31,Surabaya,Karyawan swasta,10000000,29814001,Menikah,55,Penabung Disiplin
+U0303,Nasabah0303,wanita,37,Yogyakarta,Wiraswasta,7000000,11630000,Dana pensiun,48,Konsumtif
+U0304,Nasabah0304,pria,34,Makassar,Karyawan swasta,7000000,10508102,Dana pensiun,47,Berkembang
+U0305,Nasabah0305,wanita,30,Surabaya,Freelancer,8000000,8560355,Dana pensiun,37,Numpang Lewat
+U0306,Nasabah0306,pria,25,Surabaya,Wiraswasta,6000000,5667608,Dana pensiun,49,Berkembang
+U0307,Nasabah0307,wanita,34,Semarang,Freelancer,9000000,9043865,Beli mobil,51,Numpang Lewat
+U0308,Nasabah0308,pria,38,Jakarta,Karyawan BUMN,4500000,7363325,Menikah,56,Numpang Lewat
+U0309,Nasabah0309,wanita,27,Medan,Freelancer,5000000,6499100,Menikah,49,Berkembang
+U0310,Nasabah0310,pria,30,Denpasar,PNS,12000000,25469767,Dana darurat,50,Berkembang
+U0311,Nasabah0311,wanita,30,Makassar,Karyawan BUMN,4500000,4419610,Beli mobil,36,Numpang Lewat
+U0312,Nasabah0312,pria,33,Denpasar,Guru,4000000,2674577,Dana pensiun,53,Defisit
+U0313,Nasabah0313,wanita,23,Yogyakarta,Karyawan BUMN,8000000,12428615,Dana pensiun,31,Numpang Lewat
+U0314,Nasabah0314,pria,28,Yogyakarta,PNS,9000000,13521872,Menikah,32,Berkembang
+U0315,Nasabah0315,wanita,30,Makassar,Guru,7000000,19359978,Beli rumah,52,Berkembang
+U0316,Nasabah0316,pria,29,Semarang,Karyawan BUMN,7000000,13849045,Liburan,42,Berkembang
+U0317,Nasabah0317,wanita,30,Semarang,Freelancer,5000000,10474021,Menikah,36,Konsumtif
+U0318,Nasabah0318,pria,36,Makassar,Karyawan BUMN,5000000,9066921,Menikah,41,Konsumtif
+U0319,Nasabah0319,wanita,23,Yogyakarta,Wiraswasta,7000000,10911363,Beli mobil,32,Penabung Disiplin
+U0320,Nasabah0320,pria,29,Surabaya,Karyawan swasta,4500000,4651183,Beli rumah,42,Defisit
+U0321,Nasabah0321,wanita,28,Semarang,Karyawan swasta,6000000,4191794,Beli rumah,36,Defisit
+U0322,Nasabah0322,pria,32,Semarang,Karyawan swasta,9000000,10041577,Dana pendidikan anak,47,Konsumtif
+U0323,Nasabah0323,wanita,30,Makassar,Karyawan BUMN,4500000,3869538,Dana pendidikan anak,33,Numpang Lewat
+U0324,Nasabah0324,pria,26,Denpasar,PNS,6000000,6312240,Dana darurat,49,Numpang Lewat
+U0325,Nasabah0325,wanita,28,Denpasar,Karyawan BUMN,5000000,5398367,Liburan,32,Numpang Lewat
+U0326,Nasabah0326,pria,38,Denpasar,PNS,8000000,23567285,Dana darurat,61,Penabung Disiplin
+U0327,Nasabah0327,wanita,39,Bandung,Karyawan BUMN,7000000,7857370,Dana pendidikan anak,54,Numpang Lewat
+U0328,Nasabah0328,pria,34,Medan,Guru,4500000,3497525,Beli rumah,39,Defisit
+U0329,Nasabah0329,wanita,32,Bandung,Guru,9000000,18680192,Dana pensiun,36,Penabung Disiplin
+U0330,Nasabah0330,pria,24,Yogyakarta,Karyawan swasta,7000000,11670903,Dana pensiun,35,Berkembang
+U0331,Nasabah0331,wanita,20,Surabaya,Wiraswasta,9000000,16267537,Dana darurat,29,Berkembang
+U0332,Nasabah0332,pria,29,Denpasar,Karyawan BUMN,4000000,3315818,Dana pensiun,34,Defisit
+U0333,Nasabah0333,wanita,21,Makassar,Karyawan BUMN,12000000,16758471,Dana darurat,24,Numpang Lewat
+U0334,Nasabah0334,pria,37,Bandung,Karyawan BUMN,9000000,14265398,Dana pensiun,48,Numpang Lewat
+U0335,Nasabah0335,wanita,28,Jakarta,PNS,7000000,6180711,Dana pendidikan anak,47,Numpang Lewat
+U0336,Nasabah0336,pria,27,Makassar,Guru,5000000,11350911,Dana pensiun,49,Penabung Disiplin
+U0337,Nasabah0337,wanita,20,Jakarta,Karyawan BUMN,5000000,7283597,Dana darurat,44,Penabung Disiplin
+U0338,Nasabah0338,pria,47,Bandung,Guru,12000000,30639544,Dana pendidikan anak,54,Penabung Disiplin
+U0339,Nasabah0339,wanita,27,Surabaya,Wiraswasta,5000000,3699848,Dana darurat,45,Defisit
+U0340,Nasabah0340,pria,24,Yogyakarta,Karyawan swasta,4000000,3632033,Liburan,41,Defisit
+U0341,Nasabah0341,wanita,20,Surabaya,Wiraswasta,6000000,10146374,Menikah,29,Konsumtif
+U0342,Nasabah0342,pria,44,Denpasar,Freelancer,10000000,21536728,Beli mobil,48,Penabung Disiplin
+U0343,Nasabah0343,wanita,33,Denpasar,Freelancer,5000000,7382656,Dana pendidikan anak,54,Penabung Disiplin
+U0344,Nasabah0344,pria,30,Bandung,Guru,9000000,6598002,Beli rumah,40,Berkembang
+U0345,Nasabah0345,wanita,52,Makassar,Guru,5000000,4937878,Beli rumah,62,Defisit
+U0346,Nasabah0346,pria,24,Bandung,Karyawan swasta,5000000,8593689,Dana darurat,33,Numpang Lewat
+U0347,Nasabah0347,wanita,27,Semarang,Wiraswasta,12000000,16108198,Beli rumah,41,Berkembang
+U0348,Nasabah0348,pria,45,Yogyakarta,Wiraswasta,5000000,5531214,Dana pendidikan anak,61,Numpang Lewat
+U0349,Nasabah0349,wanita,34,Denpasar,Karyawan swasta,6000000,6953923,Dana darurat,57,Konsumtif
+U0350,Nasabah0350,pria,23,Medan,Karyawan swasta,10000000,21845410,Dana pensiun,43,Numpang Lewat
+U0351,Nasabah0351,wanita,42,Semarang,Wiraswasta,6000000,12067131,Beli mobil,65,Penabung Disiplin
+U0352,Nasabah0352,pria,29,Yogyakarta,Wiraswasta,10000000,22649868,Beli mobil,34,Penabung Disiplin
+U0353,Nasabah0353,wanita,30,Denpasar,Guru,6000000,7042989,Dana darurat,39,Defisit
+U0354,Nasabah0354,pria,23,Semarang,Karyawan BUMN,4500000,4480385,Liburan,30,Defisit
+U0355,Nasabah0355,wanita,27,Yogyakarta,Karyawan swasta,10000000,17139191,Dana darurat,31,Berkembang
+U0356,Nasabah0356,pria,23,Yogyakarta,Freelancer,5000000,5279263,Dana pendidikan anak,34,Konsumtif
+U0357,Nasabah0357,wanita,42,Semarang,Karyawan swasta,7000000,10283911,Beli rumah,60,Penabung Disiplin
+U0358,Nasabah0358,pria,27,Semarang,Karyawan BUMN,8000000,8039796,Dana pensiun,50,Berkembang
+U0359,Nasabah0359,wanita,22,Yogyakarta,Guru,12000000,17033623,Beli rumah,46,Berkembang
+U0360,Nasabah0360,pria,20,Jakarta,Karyawan swasta,8000000,15092515,Dana pendidikan anak,36,Berkembang
+U0361,Nasabah0361,wanita,22,Yogyakarta,Karyawan BUMN,12000000,26047506,Beli rumah,43,Konsumtif
+U0362,Nasabah0362,pria,30,Yogyakarta,Wiraswasta,5000000,8021890,Beli mobil,46,Konsumtif
+U0363,Nasabah0363,wanita,31,Makassar,Freelancer,5000000,4475995,Menikah,52,Berkembang
+U0364,Nasabah0364,pria,20,Jakarta,PNS,4500000,6937826,Beli rumah,42,Berkembang
+U0365,Nasabah0365,wanita,27,Medan,Guru,7000000,12394550,Beli mobil,41,Penabung Disiplin
+U0366,Nasabah0366,pria,33,Medan,Karyawan BUMN,4500000,8030970,Liburan,57,Penabung Disiplin
+U0367,Nasabah0367,wanita,30,Yogyakarta,Wiraswasta,8000000,14391301,Menikah,46,Numpang Lewat
+U0368,Nasabah0368,pria,35,Surabaya,Guru,7000000,14400511,Dana pendidikan anak,43,Konsumtif
+U0369,Nasabah0369,wanita,31,Bandung,Guru,6000000,13073237,Dana pendidikan anak,42,Penabung Disiplin
+U0370,Nasabah0370,pria,25,Bandung,PNS,12000000,35006806,Dana darurat,33,Penabung Disiplin
+U0371,Nasabah0371,wanita,22,Denpasar,Karyawan swasta,8000000,19480759,Dana darurat,36,Penabung Disiplin
+U0372,Nasabah0372,pria,26,Yogyakarta,Karyawan swasta,8000000,18293633,Dana darurat,36,Berkembang
+U0373,Nasabah0373,wanita,40,Bandung,Karyawan BUMN,6000000,9009044,Beli mobil,43,Numpang Lewat
+U0374,Nasabah0374,pria,27,Jakarta,Wiraswasta,10000000,26123731,Liburan,51,Berkembang
+U0375,Nasabah0375,wanita,29,Makassar,PNS,6000000,10521061,Beli rumah,47,Berkembang
+U0376,Nasabah0376,pria,31,Yogyakarta,Freelancer,5000000,7211637,Beli mobil,42,Berkembang
+U0377,Nasabah0377,wanita,26,Semarang,Karyawan swasta,9000000,19149762,Beli rumah,29,Berkembang
+U0378,Nasabah0378,pria,36,Surabaya,PNS,4000000,4840355,Dana darurat,40,Penabung Disiplin
+U0379,Nasabah0379,wanita,43,Surabaya,Guru,8000000,10653109,Beli rumah,67,Berkembang
+U0380,Nasabah0380,pria,33,Jakarta,Karyawan swasta,4000000,2682832,Menikah,45,Defisit
+U0381,Nasabah0381,wanita,31,Surabaya,Wiraswasta,4000000,6592786,Dana pensiun,47,Penabung Disiplin
+U0382,Nasabah0382,pria,31,Makassar,Freelancer,4500000,6950196,Dana darurat,47,Numpang Lewat
+U0383,Nasabah0383,wanita,27,Bandung,Wiraswasta,4000000,6461634,Dana darurat,40,Berkembang
+U0384,Nasabah0384,pria,23,Jakarta,Wiraswasta,9000000,16699106,Menikah,35,Penabung Disiplin
+U0385,Nasabah0385,wanita,34,Medan,Freelancer,10000000,23900772,Beli rumah,44,Berkembang
+U0386,Nasabah0386,pria,27,Yogyakarta,Karyawan BUMN,7000000,12995000,Liburan,51,Berkembang
+U0387,Nasabah0387,wanita,33,Semarang,Wiraswasta,4500000,5545768,Menikah,46,Konsumtif
+U0388,Nasabah0388,pria,34,Yogyakarta,Karyawan BUMN,12000000,27047474,Beli mobil,45,Berkembang
+U0389,Nasabah0389,wanita,34,Semarang,Wiraswasta,4500000,5240121,Dana pensiun,46,Berkembang
+U0390,Nasabah0390,pria,20,Semarang,Freelancer,9000000,16511771,Beli mobil,29,Numpang Lewat
+U0391,Nasabah0391,wanita,36,Yogyakarta,Karyawan BUMN,9000000,14174163,Menikah,51,Berkembang
+U0392,Nasabah0392,pria,30,Surabaya,Freelancer,12000000,21289226,Beli rumah,46,Numpang Lewat
+U0393,Nasabah0393,wanita,25,Semarang,Freelancer,8000000,16023459,Menikah,46,Konsumtif
+U0394,Nasabah0394,pria,20,Surabaya,Freelancer,7000000,6286185,Beli mobil,41,Defisit
+U0395,Nasabah0395,wanita,31,Makassar,Karyawan swasta,10000000,27434473,Dana pendidikan anak,47,Konsumtif
+U0396,Nasabah0396,pria,27,Surabaya,Freelancer,4000000,3441866,Menikah,47,Defisit
+U0397,Nasabah0397,wanita,31,Surabaya,Guru,5000000,3192416,Dana darurat,39,Numpang Lewat
+U0398,Nasabah0398,pria,27,Semarang,Karyawan BUMN,7000000,17706179,Beli rumah,43,Berkembang
+U0399,Nasabah0399,wanita,20,Jakarta,Guru,8000000,18358099,Liburan,34,Berkembang
+U0400,Nasabah0400,pria,37,Denpasar,Freelancer,7000000,16127534,Beli rumah,43,Berkembang
+U0401,Nasabah0401,wanita,24,Bandung,Wiraswasta,9000000,22459667,Beli rumah,35,Penabung Disiplin
+U0402,Nasabah0402,pria,30,Bandung,Freelancer,7000000,8600299,Beli rumah,46,Defisit
+U0403,Nasabah0403,wanita,20,Makassar,Karyawan swasta,5000000,6278789,Beli rumah,34,Defisit
+U0404,Nasabah0404,pria,38,Surabaya,Wiraswasta,6000000,7123428,Dana pendidikan anak,57,Berkembang
+U0405,Nasabah0405,wanita,20,Surabaya,Karyawan swasta,12000000,19705812,Dana darurat,27,Berkembang
+U0406,Nasabah0406,pria,41,Makassar,Karyawan BUMN,8000000,23262132,Dana pendidikan anak,52,Konsumtif
+U0407,Nasabah0407,wanita,29,Medan,Guru,8000000,6458551,Beli rumah,33,Berkembang
+U0408,Nasabah0408,pria,29,Jakarta,Guru,12000000,21663445,Dana darurat,43,Berkembang
+U0409,Nasabah0409,wanita,24,Makassar,Karyawan BUMN,10000000,14433705,Dana darurat,34,Numpang Lewat
+U0410,Nasabah0410,pria,25,Makassar,PNS,6000000,4260219,Dana pensiun,40,Defisit
+U0411,Nasabah0411,wanita,37,Medan,Freelancer,7000000,15100713,Dana darurat,43,Penabung Disiplin
+U0412,Nasabah0412,pria,24,Makassar,Freelancer,4500000,2970800,Dana pensiun,33,Defisit
+U0413,Nasabah0413,wanita,30,Semarang,Karyawan BUMN,10000000,17626129,Dana pendidikan anak,37,Numpang Lewat
+U0414,Nasabah0414,pria,32,Bandung,Karyawan BUMN,5000000,3015737,Beli mobil,55,Numpang Lewat
+U0415,Nasabah0415,wanita,35,Yogyakarta,Karyawan BUMN,9000000,15537578,Menikah,55,Penabung Disiplin
+U0416,Nasabah0416,pria,36,Surabaya,PNS,8000000,20432928,Beli rumah,56,Penabung Disiplin
+U0417,Nasabah0417,wanita,32,Jakarta,Karyawan BUMN,6000000,16458750,Dana darurat,49,Berkembang
+U0418,Nasabah0418,pria,31,Surabaya,PNS,12000000,32153756,Menikah,48,Konsumtif
+U0419,Nasabah0419,wanita,37,Yogyakarta,Guru,8000000,12164475,Menikah,42,Berkembang
+U0420,Nasabah0420,pria,28,Jakarta,Guru,9000000,15988765,Dana pendidikan anak,31,Penabung Disiplin
+U0421,Nasabah0421,wanita,38,Makassar,PNS,5000000,9255742,Beli mobil,58,Konsumtif
+U0422,Nasabah0422,pria,30,Jakarta,Karyawan BUMN,7000000,14917603,Liburan,34,Konsumtif
+U0423,Nasabah0423,wanita,31,Bandung,Freelancer,6000000,13189493,Dana darurat,37,Penabung Disiplin
+U0424,Nasabah0424,pria,20,Surabaya,Guru,10000000,22022831,Beli mobil,32,Penabung Disiplin
+U0425,Nasabah0425,wanita,34,Makassar,Guru,4000000,6543744,Liburan,57,Konsumtif
+U0426,Nasabah0426,pria,30,Semarang,PNS,4000000,6108525,Menikah,49,Penabung Disiplin
+U0427,Nasabah0427,wanita,26,Denpasar,Wiraswasta,4000000,5004848,Dana darurat,47,Berkembang
+U0428,Nasabah0428,pria,30,Makassar,PNS,8000000,11932988,Beli rumah,42,Berkembang
+U0429,Nasabah0429,wanita,38,Yogyakarta,Wiraswasta,7000000,12900675,Menikah,46,Berkembang
+U0430,Nasabah0430,pria,43,Makassar,Karyawan swasta,5000000,4387130,Dana darurat,58,Defisit
+U0431,Nasabah0431,wanita,32,Medan,Guru,8000000,14733362,Dana pensiun,43,Penabung Disiplin
+U0432,Nasabah0432,pria,35,Semarang,PNS,4500000,3851527,Menikah,50,Defisit
+U0433,Nasabah0433,wanita,30,Semarang,Guru,9000000,9900601,Beli rumah,52,Defisit
+U0434,Nasabah0434,pria,23,Denpasar,Freelancer,5000000,5978640,Beli rumah,44,Numpang Lewat
+U0435,Nasabah0435,wanita,35,Bandung,PNS,10000000,20077476,Beli mobil,45,Berkembang
+U0436,Nasabah0436,pria,29,Makassar,Wiraswasta,4500000,4587630,Menikah,53,Numpang Lewat
+U0437,Nasabah0437,wanita,34,Surabaya,Karyawan swasta,4000000,1664985,Dana pensiun,42,Defisit
+U0438,Nasabah0438,pria,31,Jakarta,PNS,4500000,2317327,Beli rumah,51,Defisit
+U0439,Nasabah0439,wanita,35,Medan,Wiraswasta,8000000,12545160,Dana pendidikan anak,47,Numpang Lewat
+U0440,Nasabah0440,pria,29,Makassar,Wiraswasta,4000000,1314201,Liburan,44,Defisit
+U0441,Nasabah0441,wanita,21,Medan,Karyawan BUMN,4000000,7062842,Dana pendidikan anak,25,Konsumtif
+U0442,Nasabah0442,pria,32,Yogyakarta,Karyawan BUMN,6000000,10098489,Dana pendidikan anak,55,Defisit
+U0443,Nasabah0443,wanita,32,Medan,Wiraswasta,9000000,14577917,Beli mobil,50,Berkembang
+U0444,Nasabah0444,pria,22,Semarang,Guru,6000000,7619194,Dana darurat,43,Berkembang
+U0445,Nasabah0445,wanita,23,Yogyakarta,Freelancer,9000000,20477774,Dana darurat,44,Penabung Disiplin
+U0446,Nasabah0446,pria,26,Denpasar,Karyawan swasta,6000000,6970991,Dana pensiun,30,Numpang Lewat
+U0447,Nasabah0447,wanita,39,Denpasar,Karyawan swasta,6000000,17079718,Beli rumah,50,Penabung Disiplin
+U0448,Nasabah0448,pria,44,Semarang,PNS,4500000,5109637,Liburan,61,Penabung Disiplin
+U0449,Nasabah0449,wanita,25,Denpasar,PNS,5000000,7514045,Dana darurat,42,Penabung Disiplin
+U0450,Nasabah0450,pria,40,Yogyakarta,Freelancer,6000000,3714940,Menikah,55,Defisit
+U0451,Nasabah0451,wanita,20,Makassar,Wiraswasta,4500000,5899026,Dana pendidikan anak,25,Defisit
+U0452,Nasabah0452,pria,29,Denpasar,PNS,9000000,20248799,Menikah,41,Berkembang
+U0453,Nasabah0453,wanita,30,Semarang,Karyawan swasta,4500000,6818714,Liburan,43,Penabung Disiplin
+U0454,Nasabah0454,pria,45,Yogyakarta,Freelancer,4000000,5461006,Dana darurat,63,Penabung Disiplin
+U0455,Nasabah0455,wanita,23,Surabaya,Freelancer,12000000,22346040,Beli rumah,27,Konsumtif
+U0456,Nasabah0456,pria,37,Makassar,Wiraswasta,8000000,15523998,Beli mobil,57,Konsumtif
+U0457,Nasabah0457,wanita,20,Denpasar,Freelancer,9000000,25307072,Beli rumah,27,Berkembang
+U0458,Nasabah0458,pria,27,Surabaya,Karyawan BUMN,8000000,12234221,Menikah,47,Konsumtif
+U0459,Nasabah0459,wanita,34,Surabaya,Karyawan swasta,8000000,20825033,Beli mobil,46,Konsumtif
+U0460,Nasabah0460,pria,25,Makassar,Wiraswasta,12000000,23633888,Liburan,32,Berkembang
+U0461,Nasabah0461,wanita,22,Surabaya,Freelancer,10000000,21450553,Beli rumah,40,Penabung Disiplin
+U0462,Nasabah0462,pria,25,Surabaya,Karyawan BUMN,12000000,31721334,Menikah,34,Penabung Disiplin
+U0463,Nasabah0463,wanita,26,Medan,Karyawan BUMN,9000000,23648687,Dana pensiun,47,Penabung Disiplin
+U0464,Nasabah0464,pria,30,Denpasar,Karyawan BUMN,5000000,4956945,Liburan,41,Konsumtif
+U0465,Nasabah0465,wanita,27,Medan,Wiraswasta,9000000,17531339,Dana pensiun,33,Penabung Disiplin
+U0466,Nasabah0466,pria,28,Surabaya,Freelancer,8000000,16566247,Dana pensiun,33,Numpang Lewat
+U0467,Nasabah0467,wanita,28,Semarang,Karyawan BUMN,7000000,10322581,Dana pensiun,38,Konsumtif
+U0468,Nasabah0468,pria,29,Surabaya,Karyawan swasta,6000000,9120330,Beli rumah,45,Berkembang
+U0469,Nasabah0469,wanita,32,Bandung,Freelancer,7000000,20709030,Dana pendidikan anak,46,Konsumtif
+U0470,Nasabah0470,pria,37,Semarang,Wiraswasta,8000000,14063150,Dana darurat,55,Penabung Disiplin
+U0471,Nasabah0471,wanita,26,Makassar,Freelancer,7000000,4653075,Menikah,41,Defisit
+U0472,Nasabah0472,pria,33,Yogyakarta,Karyawan BUMN,12000000,21994885,Beli mobil,53,Berkembang
+U0473,Nasabah0473,wanita,20,Semarang,Freelancer,10000000,23336824,Liburan,32,Berkembang
+U0474,Nasabah0474,pria,28,Bandung,Wiraswasta,5000000,11142091,Liburan,34,Penabung Disiplin
+U0475,Nasabah0475,wanita,30,Semarang,Freelancer,10000000,18765097,Dana pendidikan anak,40,Penabung Disiplin
+U0476,Nasabah0476,pria,20,Denpasar,PNS,5000000,11629106,Dana darurat,27,Penabung Disiplin
+U0477,Nasabah0477,wanita,22,Bandung,Karyawan BUMN,4000000,4753821,Dana darurat,28,Defisit
+U0478,Nasabah0478,pria,40,Jakarta,Wiraswasta,7000000,4749490,Beli rumah,50,Konsumtif
+U0479,Nasabah0479,wanita,31,Medan,PNS,5000000,8588884,Dana darurat,42,Berkembang
+U0480,Nasabah0480,pria,29,Denpasar,Freelancer,12000000,16545115,Beli mobil,40,Berkembang
+U0481,Nasabah0481,wanita,23,Denpasar,Karyawan swasta,5000000,3957644,Dana pendidikan anak,45,Defisit
+U0482,Nasabah0482,pria,31,Yogyakarta,PNS,4500000,2587737,Liburan,51,Defisit
+U0483,Nasabah0483,wanita,29,Bandung,Guru,4000000,6027245,Dana pensiun,38,Konsumtif
+U0484,Nasabah0484,pria,29,Surabaya,Guru,10000000,20471185,Beli rumah,37,Berkembang
+U0485,Nasabah0485,wanita,46,Jakarta,Guru,4000000,7172145,Beli rumah,52,Penabung Disiplin
+U0486,Nasabah0486,pria,44,Denpasar,Freelancer,8000000,10072886,Menikah,57,Berkembang
+U0487,Nasabah0487,wanita,24,Surabaya,Freelancer,9000000,22013619,Dana pensiun,30,Penabung Disiplin
+U0488,Nasabah0488,pria,22,Medan,Guru,4500000,5935809,Dana darurat,35,Berkembang
+U0489,Nasabah0489,wanita,47,Yogyakarta,Karyawan BUMN,7000000,11954078,Liburan,50,Numpang Lewat
+U0490,Nasabah0490,pria,23,Bandung,PNS,4000000,5580875,Liburan,38,Penabung Disiplin
+U0491,Nasabah0491,wanita,26,Bandung,Wiraswasta,6000000,12414217,Dana pendidikan anak,41,Penabung Disiplin
+U0492,Nasabah0492,pria,43,Denpasar,Freelancer,6000000,9857118,Liburan,52,Penabung Disiplin
+U0493,Nasabah0493,wanita,27,Surabaya,Karyawan swasta,4500000,4914181,Dana darurat,46,Berkembang
+U0494,Nasabah0494,pria,22,Surabaya,PNS,10000000,20966074,Liburan,30,Penabung Disiplin
+U0495,Nasabah0495,wanita,34,Surabaya,Freelancer,5000000,4587194,Dana pendidikan anak,56,Defisit
+U0496,Nasabah0496,pria,42,Denpasar,Karyawan swasta,5000000,8556768,Liburan,64,Numpang Lewat
+U0497,Nasabah0497,wanita,26,Jakarta,Karyawan swasta,4500000,3719947,Beli rumah,43,Defisit
+U0498,Nasabah0498,pria,20,Surabaya,Guru,6000000,12585192,Beli mobil,34,Konsumtif
+U0499,Nasabah0499,wanita,20,Denpasar,Karyawan BUMN,8000000,7843523,Liburan,39,Defisit
+U0500,Nasabah0500,pria,29,Denpasar,Freelancer,5000000,9032016,Dana pensiun,37,Berkembang
+U0501,Nasabah0501,wanita,25,Makassar,Freelancer,6000000,13879220,Dana darurat,29,Konsumtif
+U0502,Nasabah0502,pria,47,Denpasar,Freelancer,9000000,16492378,Liburan,58,Konsumtif
+U0503,Nasabah0503,wanita,37,Yogyakarta,Freelancer,6000000,3532398,Dana darurat,41,Defisit
+U0504,Nasabah0504,pria,30,Bandung,Guru,9000000,20566051,Dana darurat,34,Numpang Lewat
+U0505,Nasabah0505,wanita,20,Bandung,Karyawan swasta,10000000,19511020,Dana pendidikan anak,32,Berkembang
+U0506,Nasabah0506,pria,24,Denpasar,Freelancer,9000000,20684066,Beli rumah,46,Berkembang
+U0507,Nasabah0507,wanita,31,Yogyakarta,PNS,12000000,29695599,Beli rumah,36,Penabung Disiplin
+U0508,Nasabah0508,pria,29,Makassar,Guru,4500000,7687825,Beli rumah,50,Berkembang
+U0509,Nasabah0509,wanita,35,Denpasar,Guru,9000000,12102963,Menikah,50,Berkembang
+U0510,Nasabah0510,pria,30,Jakarta,Karyawan BUMN,4500000,10304499,Dana darurat,52,Konsumtif
+U0511,Nasabah0511,wanita,21,Bandung,Guru,5000000,10849311,Beli rumah,30,Penabung Disiplin
+U0512,Nasabah0512,pria,33,Jakarta,Karyawan BUMN,6000000,3927977,Dana darurat,39,Defisit
+U0513,Nasabah0513,wanita,34,Surabaya,Guru,4000000,2526373,Beli rumah,49,Defisit
+U0514,Nasabah0514,pria,33,Jakarta,Wiraswasta,9000000,21101984,Beli rumah,54,Berkembang
+U0515,Nasabah0515,wanita,40,Surabaya,Freelancer,4500000,2076655,Beli rumah,46,Defisit
+U0516,Nasabah0516,pria,25,Yogyakarta,Freelancer,4500000,4856970,Dana darurat,42,Defisit
+U0517,Nasabah0517,wanita,20,Denpasar,Wiraswasta,6000000,17177451,Dana pensiun,37,Penabung Disiplin
+U0518,Nasabah0518,pria,38,Denpasar,Freelancer,6000000,5667689,Dana darurat,53,Numpang Lewat
+U0519,Nasabah0519,wanita,41,Makassar,PNS,7000000,9550763,Beli mobil,61,Berkembang
+U0520,Nasabah0520,pria,27,Denpasar,Wiraswasta,8000000,17436039,Beli rumah,46,Berkembang
+U0521,Nasabah0521,wanita,20,Bandung,Wiraswasta,10000000,18191780,Beli mobil,38,Penabung Disiplin
+U0522,Nasabah0522,pria,21,Makassar,PNS,10000000,23935036,Dana darurat,33,Penabung Disiplin
+U0523,Nasabah0523,wanita,30,Medan,Freelancer,7000000,13138433,Beli mobil,39,Penabung Disiplin
+U0524,Nasabah0524,pria,28,Bandung,PNS,8000000,15973870,Beli mobil,46,Penabung Disiplin
+U0525,Nasabah0525,wanita,29,Surabaya,Karyawan BUMN,9000000,19300819,Beli rumah,48,Penabung Disiplin
+U0526,Nasabah0526,pria,35,Yogyakarta,PNS,7000000,3829054,Dana pendidikan anak,44,Berkembang
+U0527,Nasabah0527,wanita,28,Yogyakarta,Karyawan swasta,5000000,5560103,Dana pendidikan anak,48,Defisit
+U0528,Nasabah0528,pria,23,Makassar,Karyawan swasta,12000000,10547726,Dana pendidikan anak,46,Numpang Lewat
+U0529,Nasabah0529,wanita,20,Bandung,Guru,4500000,4787039,Beli rumah,38,Defisit
+U0530,Nasabah0530,pria,35,Bandung,Karyawan BUMN,4000000,2255102,Dana pendidikan anak,39,Defisit
+U0531,Nasabah0531,wanita,31,Bandung,PNS,6000000,6593904,Beli rumah,54,Numpang Lewat
+U0532,Nasabah0532,pria,40,Makassar,Karyawan swasta,7000000,13370733,Dana darurat,55,Penabung Disiplin
+U0533,Nasabah0533,wanita,38,Bandung,Freelancer,9000000,25740629,Beli rumah,50,Konsumtif
+U0534,Nasabah0534,pria,28,Yogyakarta,Guru,6000000,12639252,Dana pendidikan anak,41,Konsumtif
+U0535,Nasabah0535,wanita,26,Semarang,Karyawan BUMN,12000000,14646495,Beli mobil,50,Numpang Lewat
+U0536,Nasabah0536,pria,44,Semarang,Karyawan BUMN,4000000,2001500,Liburan,50,Defisit
+U0537,Nasabah0537,wanita,37,Jakarta,Guru,9000000,13225313,Dana pendidikan anak,41,Konsumtif
+U0538,Nasabah0538,pria,46,Semarang,Wiraswasta,8000000,20627646,Beli rumah,62,Berkembang
+U0539,Nasabah0539,wanita,34,Surabaya,Wiraswasta,12000000,36839062,Beli mobil,45,Penabung Disiplin
+U0540,Nasabah0540,pria,27,Denpasar,Guru,4000000,3083106,Liburan,45,Defisit
+U0541,Nasabah0541,wanita,38,Bandung,Karyawan BUMN,10000000,25755142,Beli rumah,44,Berkembang
+U0542,Nasabah0542,pria,23,Surabaya,PNS,9000000,10872859,Beli mobil,33,Numpang Lewat
+U0543,Nasabah0543,wanita,20,Denpasar,Guru,6000000,4600454,Dana darurat,32,Konsumtif
+U0544,Nasabah0544,pria,30,Surabaya,Karyawan swasta,4500000,6567292,Beli mobil,40,Konsumtif
+U0545,Nasabah0545,wanita,40,Denpasar,Guru,12000000,32016319,Dana darurat,51,Penabung Disiplin
+U0546,Nasabah0546,pria,28,Bandung,PNS,10000000,18277421,Dana pensiun,34,Penabung Disiplin
+U0547,Nasabah0547,wanita,28,Semarang,Wiraswasta,12000000,32241994,Dana pendidikan anak,33,Penabung Disiplin
+U0548,Nasabah0548,pria,20,Yogyakarta,Karyawan BUMN,8000000,18155971,Beli mobil,41,Penabung Disiplin
+U0549,Nasabah0549,wanita,29,Jakarta,PNS,8000000,10484663,Dana darurat,40,Berkembang
+U0550,Nasabah0550,pria,20,Makassar,Wiraswasta,9000000,15580828,Dana darurat,41,Numpang Lewat
+U0551,Nasabah0551,wanita,27,Makassar,PNS,7000000,15646822,Dana darurat,50,Penabung Disiplin
+U0552,Nasabah0552,pria,26,Medan,Wiraswasta,9000000,19466253,Beli rumah,30,Berkembang
+U0553,Nasabah0553,wanita,21,Surabaya,PNS,4000000,1771763,Dana pensiun,37,Defisit
+U0554,Nasabah0554,pria,23,Bandung,Karyawan swasta,4000000,6863697,Menikah,39,Konsumtif
+U0555,Nasabah0555,wanita,37,Denpasar,Karyawan BUMN,10000000,18163474,Liburan,58,Penabung Disiplin
+U0556,Nasabah0556,pria,42,Yogyakarta,PNS,12000000,29912866,Beli rumah,53,Berkembang
+U0557,Nasabah0557,wanita,34,Bandung,Karyawan BUMN,4000000,3448909,Dana pensiun,42,Numpang Lewat
+U0558,Nasabah0558,pria,25,Surabaya,Karyawan swasta,7000000,12494650,Menikah,48,Konsumtif
+U0559,Nasabah0559,wanita,32,Denpasar,Karyawan BUMN,5000000,6733992,Liburan,51,Konsumtif
+U0560,Nasabah0560,pria,27,Jakarta,PNS,5000000,12704311,Beli mobil,38,Penabung Disiplin
+U0561,Nasabah0561,wanita,24,Surabaya,Guru,4000000,5340104,Dana darurat,28,Defisit
+U0562,Nasabah0562,pria,33,Denpasar,PNS,6000000,9942366,Beli mobil,51,Numpang Lewat
+U0563,Nasabah0563,wanita,27,Jakarta,PNS,4000000,3077265,Menikah,49,Defisit
+U0564,Nasabah0564,pria,33,Bandung,Freelancer,6000000,10106227,Liburan,36,Berkembang
+U0565,Nasabah0565,wanita,39,Bandung,Karyawan swasta,12000000,25819257,Liburan,50,Penabung Disiplin
+U0566,Nasabah0566,pria,27,Semarang,Freelancer,10000000,16815327,Liburan,50,Numpang Lewat
+U0567,Nasabah0567,wanita,42,Semarang,Freelancer,7000000,18180645,Dana darurat,51,Penabung Disiplin
+U0568,Nasabah0568,pria,32,Jakarta,Guru,12000000,14540252,Dana pendidikan anak,36,Numpang Lewat
+U0569,Nasabah0569,wanita,32,Surabaya,Karyawan swasta,8000000,9218223,Dana darurat,56,Berkembang
+U0570,Nasabah0570,pria,27,Semarang,Freelancer,4500000,9199510,Dana darurat,30,Konsumtif
+U0571,Nasabah0571,wanita,31,Denpasar,Freelancer,4000000,3321840,Dana darurat,46,Berkembang
+U0572,Nasabah0572,pria,30,Surabaya,PNS,8000000,13157569,Dana pensiun,54,Numpang Lewat
+U0573,Nasabah0573,wanita,21,Semarang,Karyawan swasta,7000000,19107388,Dana pensiun,26,Konsumtif
+U0574,Nasabah0574,pria,27,Surabaya,Karyawan swasta,5000000,11708949,Menikah,41,Penabung Disiplin
+U0575,Nasabah0575,wanita,36,Makassar,Wiraswasta,5000000,10515586,Dana darurat,52,Penabung Disiplin
+U0576,Nasabah0576,pria,26,Bandung,Karyawan BUMN,4000000,3162520,Dana pendidikan anak,37,Penabung Disiplin
+U0577,Nasabah0577,wanita,20,Semarang,Wiraswasta,4000000,1651433,Dana pendidikan anak,33,Defisit
+U0578,Nasabah0578,pria,30,Denpasar,Karyawan swasta,5000000,10785083,Beli mobil,54,Penabung Disiplin
+U0579,Nasabah0579,wanita,22,Makassar,Karyawan BUMN,4500000,9314834,Beli mobil,31,Numpang Lewat
+U0580,Nasabah0580,pria,45,Makassar,PNS,10000000,28514677,Beli mobil,68,Penabung Disiplin
+U0581,Nasabah0581,wanita,25,Surabaya,PNS,10000000,14629284,Menikah,34,Berkembang
+U0582,Nasabah0582,pria,39,Jakarta,Guru,6000000,13221755,Menikah,54,Penabung Disiplin
+U0583,Nasabah0583,wanita,28,Makassar,Freelancer,12000000,24498002,Dana darurat,45,Berkembang
+U0584,Nasabah0584,pria,24,Semarang,Freelancer,4500000,3051199,Dana darurat,30,Defisit
+U0585,Nasabah0585,wanita,38,Bandung,Karyawan BUMN,9000000,18419871,Dana darurat,53,Penabung Disiplin
+U0586,Nasabah0586,pria,21,Semarang,Karyawan swasta,4500000,3602709,Dana darurat,31,Penabung Disiplin
+U0587,Nasabah0587,wanita,34,Yogyakarta,Karyawan BUMN,8000000,15033238,Beli mobil,56,Konsumtif
+U0588,Nasabah0588,pria,34,Semarang,Karyawan swasta,7000000,10336534,Beli rumah,54,Penabung Disiplin
+U0589,Nasabah0589,wanita,20,Bandung,Guru,12000000,25219042,Dana pendidikan anak,24,Berkembang
+U0590,Nasabah0590,pria,24,Jakarta,Guru,8000000,20519058,Liburan,37,Berkembang
+U0591,Nasabah0591,wanita,23,Denpasar,Guru,4500000,4970529,Dana pendidikan anak,31,Numpang Lewat
+U0592,Nasabah0592,pria,20,Makassar,Wiraswasta,5000000,9302837,Dana pendidikan anak,41,Penabung Disiplin
+U0593,Nasabah0593,wanita,20,Medan,Karyawan BUMN,8000000,13332349,Liburan,29,Berkembang
+U0594,Nasabah0594,pria,41,Bandung,Wiraswasta,10000000,24106392,Beli rumah,56,Berkembang
+U0595,Nasabah0595,wanita,27,Medan,Freelancer,4500000,4216770,Dana pensiun,49,Berkembang
+U0596,Nasabah0596,pria,32,Bandung,Wiraswasta,9000000,16736751,Menikah,46,Berkembang
+U0597,Nasabah0597,wanita,26,Medan,Guru,12000000,26179010,Dana pendidikan anak,35,Berkembang
+U0598,Nasabah0598,pria,30,Yogyakarta,PNS,4500000,5469054,Dana darurat,54,Penabung Disiplin
+U0599,Nasabah0599,wanita,49,Medan,Guru,8000000,19770021,Liburan,61,Penabung Disiplin
+U0600,Nasabah0600,pria,36,Medan,Karyawan swasta,10000000,13883687,Beli mobil,55,Numpang Lewat
+U0601,Nasabah0601,wanita,23,Surabaya,Guru,7000000,13374290,Liburan,37,Konsumtif
+U0602,Nasabah0602,pria,35,Jakarta,PNS,10000000,16961071,Dana darurat,47,Konsumtif
+U0603,Nasabah0603,wanita,20,Makassar,Karyawan swasta,4500000,3624309,Liburan,26,Defisit
+U0604,Nasabah0604,pria,36,Denpasar,Karyawan BUMN,4000000,2704667,Menikah,44,Defisit
+U0605,Nasabah0605,wanita,25,Medan,Wiraswasta,9000000,15224766,Dana darurat,40,Penabung Disiplin
+U0606,Nasabah0606,pria,34,Bandung,Karyawan BUMN,6000000,9845878,Dana darurat,57,Numpang Lewat
+U0607,Nasabah0607,wanita,36,Medan,Karyawan BUMN,5000000,2814051,Dana pensiun,49,Defisit
+U0608,Nasabah0608,pria,24,Surabaya,Karyawan BUMN,4000000,2592792,Dana darurat,38,Defisit
+U0609,Nasabah0609,wanita,29,Semarang,Karyawan swasta,12000000,26890362,Beli mobil,48,Konsumtif
+U0610,Nasabah0610,pria,37,Medan,Guru,4500000,2221700,Liburan,40,Defisit
+U0611,Nasabah0611,wanita,31,Semarang,Karyawan swasta,4000000,2378470,Dana pensiun,55,Defisit
+U0612,Nasabah0612,pria,31,Semarang,Karyawan BUMN,6000000,3473515,Beli rumah,40,Defisit
+U0613,Nasabah0613,wanita,30,Jakarta,PNS,8000000,18956484,Beli mobil,42,Penabung Disiplin
+U0614,Nasabah0614,pria,30,Yogyakarta,Karyawan swasta,6000000,7129677,Beli mobil,36,Konsumtif
+U0615,Nasabah0615,wanita,35,Makassar,Wiraswasta,10000000,14704209,Dana darurat,38,Numpang Lewat
+U0616,Nasabah0616,pria,31,Medan,PNS,6000000,10763727,Dana darurat,37,Defisit
+U0617,Nasabah0617,wanita,27,Bandung,Karyawan swasta,12000000,20658939,Menikah,39,Numpang Lewat
+U0618,Nasabah0618,pria,32,Bandung,Wiraswasta,6000000,10902335,Liburan,44,Penabung Disiplin
+U0619,Nasabah0619,wanita,27,Medan,PNS,7000000,18257403,Dana pensiun,34,Penabung Disiplin
+U0620,Nasabah0620,pria,26,Denpasar,Wiraswasta,4000000,2215877,Liburan,32,Defisit
+U0621,Nasabah0621,wanita,20,Surabaya,Wiraswasta,10000000,14775627,Menikah,24,Numpang Lewat
+U0622,Nasabah0622,pria,23,Makassar,Karyawan BUMN,7000000,7776631,Dana pendidikan anak,33,Berkembang
+U0623,Nasabah0623,wanita,24,Denpasar,PNS,6000000,12115673,Dana darurat,32,Berkembang
+U0624,Nasabah0624,pria,20,Denpasar,Guru,4000000,1999601,Dana pendidikan anak,41,Defisit
+U0625,Nasabah0625,wanita,33,Jakarta,Karyawan BUMN,5000000,6197819,Dana pendidikan anak,54,Defisit
+U0626,Nasabah0626,pria,41,Bandung,Wiraswasta,4000000,2639056,Menikah,58,Defisit
+U0627,Nasabah0627,wanita,35,Denpasar,Guru,6000000,10779720,Dana darurat,52,Konsumtif
+U0628,Nasabah0628,pria,26,Medan,Wiraswasta,8000000,15269379,Dana darurat,34,Berkembang
+U0629,Nasabah0629,wanita,36,Bandung,Guru,6000000,5858220,Liburan,54,Defisit
+U0630,Nasabah0630,pria,20,Medan,Karyawan BUMN,6000000,8133715,Dana darurat,44,Numpang Lewat
+U0631,Nasabah0631,wanita,23,Semarang,PNS,7000000,10325884,Beli mobil,29,Konsumtif
+U0632,Nasabah0632,pria,26,Denpasar,Karyawan BUMN,6000000,11382851,Liburan,42,Penabung Disiplin
+U0633,Nasabah0633,wanita,32,Denpasar,Karyawan BUMN,12000000,32947287,Beli rumah,52,Berkembang
+U0634,Nasabah0634,pria,27,Semarang,Freelancer,5000000,8181279,Dana darurat,38,Numpang Lewat
+U0635,Nasabah0635,wanita,20,Makassar,Karyawan swasta,7000000,15179132,Dana darurat,23,Konsumtif
+U0636,Nasabah0636,pria,31,Jakarta,Guru,12000000,35982100,Dana pendidikan anak,36,Berkembang
+U0637,Nasabah0637,wanita,29,Bandung,Wiraswasta,6000000,3894470,Dana darurat,36,Defisit
+U0638,Nasabah0638,pria,20,Makassar,Wiraswasta,6000000,8371892,Dana pensiun,25,Numpang Lewat
+U0639,Nasabah0639,wanita,23,Jakarta,PNS,10000000,14888841,Menikah,45,Konsumtif
+U0640,Nasabah0640,pria,20,Makassar,PNS,12000000,32547094,Beli rumah,30,Berkembang
+U0641,Nasabah0641,wanita,24,Bandung,PNS,6000000,11214978,Menikah,48,Penabung Disiplin
+U0642,Nasabah0642,pria,31,Surabaya,Wiraswasta,5000000,6689205,Liburan,43,Berkembang
+U0643,Nasabah0643,wanita,34,Jakarta,PNS,10000000,8190388,Dana pensiun,40,Defisit
+U0644,Nasabah0644,pria,24,Denpasar,PNS,9000000,6761282,Dana pensiun,46,Berkembang
+U0645,Nasabah0645,wanita,33,Jakarta,Guru,5000000,7826757,Dana darurat,49,Konsumtif
+U0646,Nasabah0646,pria,35,Semarang,Wiraswasta,8000000,17086965,Dana darurat,42,Berkembang
+U0647,Nasabah0647,wanita,20,Medan,Karyawan swasta,4000000,3015058,Beli mobil,29,Defisit
+U0648,Nasabah0648,pria,30,Makassar,Karyawan swasta,7000000,7886429,Beli mobil,35,Berkembang
+U0649,Nasabah0649,wanita,26,Semarang,PNS,12000000,29370824,Dana pensiun,41,Berkembang
+U0650,Nasabah0650,pria,20,Makassar,PNS,6000000,9281637,Dana pensiun,31,Konsumtif
+U0651,Nasabah0651,wanita,25,Bandung,Wiraswasta,5000000,6609452,Dana darurat,31,Defisit
+U0652,Nasabah0652,pria,27,Yogyakarta,Karyawan swasta,8000000,17148994,Dana darurat,31,Penabung Disiplin
+U0653,Nasabah0653,wanita,33,Jakarta,PNS,5000000,6275064,Menikah,36,Numpang Lewat
+U0654,Nasabah0654,pria,33,Semarang,Freelancer,4500000,4965627,Dana darurat,38,Penabung Disiplin
+U0655,Nasabah0655,wanita,24,Surabaya,PNS,4500000,10487114,Liburan,40,Penabung Disiplin
+U0656,Nasabah0656,pria,22,Medan,Guru,4500000,4888482,Liburan,30,Defisit
+U0657,Nasabah0657,wanita,34,Bandung,Karyawan BUMN,9000000,23140746,Beli mobil,41,Penabung Disiplin
+U0658,Nasabah0658,pria,38,Bandung,PNS,5000000,5685751,Dana darurat,57,Numpang Lewat
+U0659,Nasabah0659,wanita,26,Semarang,Freelancer,9000000,16853406,Dana pensiun,30,Konsumtif
+U0660,Nasabah0660,pria,20,Denpasar,PNS,10000000,29633861,Dana pendidikan anak,27,Penabung Disiplin
+U0661,Nasabah0661,wanita,38,Yogyakarta,PNS,5000000,6239841,Beli mobil,59,Berkembang
+U0662,Nasabah0662,pria,36,Bandung,Karyawan BUMN,4500000,5509638,Dana pendidikan anak,51,Penabung Disiplin
+U0663,Nasabah0663,wanita,37,Medan,Guru,7000000,8564477,Beli mobil,59,Defisit
+U0664,Nasabah0664,pria,25,Jakarta,Guru,7000000,16417665,Menikah,28,Berkembang
+U0665,Nasabah0665,wanita,28,Semarang,Freelancer,4000000,6039495,Beli rumah,45,Penabung Disiplin
+U0666,Nasabah0666,pria,29,Bandung,Guru,10000000,6120970,Dana darurat,37,Numpang Lewat
+U0667,Nasabah0667,wanita,25,Denpasar,Karyawan BUMN,9000000,21285082,Beli rumah,37,Penabung Disiplin
+U0668,Nasabah0668,pria,26,Denpasar,Freelancer,8000000,14283062,Dana darurat,48,Penabung Disiplin
+U0669,Nasabah0669,wanita,33,Medan,Karyawan BUMN,10000000,25884348,Beli rumah,49,Penabung Disiplin
+U0670,Nasabah0670,pria,35,Medan,Wiraswasta,4000000,2999370,Menikah,54,Defisit
+U0671,Nasabah0671,wanita,31,Bandung,Freelancer,4000000,6072574,Liburan,40,Penabung Disiplin
+U0672,Nasabah0672,pria,25,Jakarta,Wiraswasta,6000000,14760893,Dana darurat,40,Penabung Disiplin
+U0673,Nasabah0673,wanita,37,Surabaya,Wiraswasta,7000000,15861305,Beli mobil,55,Penabung Disiplin
+U0674,Nasabah0674,pria,33,Bandung,Freelancer,7000000,15545976,Dana pensiun,48,Berkembang
+U0675,Nasabah0675,wanita,21,Bandung,Guru,7000000,18721498,Beli mobil,30,Konsumtif
+U0676,Nasabah0676,pria,28,Makassar,Freelancer,6000000,3617056,Beli mobil,48,Berkembang
+U0677,Nasabah0677,wanita,20,Yogyakarta,Karyawan swasta,10000000,16005943,Dana pensiun,30,Numpang Lewat
+U0678,Nasabah0678,pria,36,Jakarta,Freelancer,12000000,38677726,Dana pendidikan anak,40,Konsumtif
+U0679,Nasabah0679,wanita,40,Jakarta,Freelancer,12000000,30049095,Liburan,49,Penabung Disiplin
+U0680,Nasabah0680,pria,20,Denpasar,Karyawan BUMN,5000000,3442480,Dana pensiun,39,Defisit
+U0681,Nasabah0681,wanita,23,Semarang,Wiraswasta,4000000,5038090,Liburan,43,Konsumtif
+U0682,Nasabah0682,pria,41,Medan,PNS,12000000,24594994,Beli rumah,62,Penabung Disiplin
+U0683,Nasabah0683,wanita,46,Bandung,Wiraswasta,6000000,7940368,Menikah,50,Penabung Disiplin
+U0684,Nasabah0684,pria,27,Yogyakarta,Wiraswasta,6000000,8741883,Menikah,43,Berkembang
+U0685,Nasabah0685,wanita,26,Semarang,Guru,12000000,29492890,Menikah,31,Berkembang
+U0686,Nasabah0686,pria,39,Makassar,Freelancer,7000000,14239116,Beli rumah,54,Penabung Disiplin
+U0687,Nasabah0687,wanita,24,Medan,Wiraswasta,4500000,11122388,Beli rumah,42,Penabung Disiplin
+U0688,Nasabah0688,pria,20,Yogyakarta,Karyawan BUMN,8000000,16195530,Beli rumah,29,Berkembang
+U0689,Nasabah0689,wanita,41,Makassar,Guru,6000000,6560054,Dana pendidikan anak,44,Berkembang
+U0690,Nasabah0690,pria,20,Denpasar,Karyawan swasta,6000000,10585130,Beli rumah,26,Penabung Disiplin
+U0691,Nasabah0691,wanita,33,Bandung,Wiraswasta,8000000,16636209,Dana pensiun,38,Berkembang
+U0692,Nasabah0692,pria,30,Medan,PNS,7000000,19533023,Beli mobil,38,Berkembang
+U0693,Nasabah0693,wanita,34,Makassar,Wiraswasta,4500000,2263365,Menikah,53,Defisit
+U0694,Nasabah0694,pria,31,Denpasar,Freelancer,5000000,9630028,Dana pendidikan anak,51,Konsumtif
+U0695,Nasabah0695,wanita,25,Yogyakarta,Guru,7000000,13797129,Dana pendidikan anak,49,Berkembang
+U0696,Nasabah0696,pria,32,Medan,PNS,5000000,6714188,Liburan,48,Konsumtif
+U0697,Nasabah0697,wanita,25,Yogyakarta,Guru,9000000,20486350,Dana pensiun,33,Konsumtif
+U0698,Nasabah0698,pria,36,Bandung,Freelancer,8000000,11928838,Dana pendidikan anak,55,Numpang Lewat
+U0699,Nasabah0699,wanita,34,Yogyakarta,Guru,4500000,4172915,Beli mobil,57,Defisit
+U0700,Nasabah0700,pria,26,Makassar,Karyawan BUMN,4500000,8340176,Dana pensiun,47,Berkembang
+U0701,Nasabah0701,wanita,31,Semarang,PNS,6000000,13940105,Liburan,52,Konsumtif
+U0702,Nasabah0702,pria,35,Denpasar,Karyawan swasta,9000000,20041411,Dana pensiun,58,Berkembang
+U0703,Nasabah0703,wanita,29,Denpasar,Karyawan BUMN,9000000,9561655,Liburan,49,Berkembang
+U0704,Nasabah0704,pria,33,Medan,Karyawan swasta,7000000,10211810,Beli rumah,39,Konsumtif
+U0705,Nasabah0705,wanita,20,Jakarta,Karyawan swasta,4500000,4883409,Dana darurat,36,Konsumtif
+U0706,Nasabah0706,pria,27,Yogyakarta,Wiraswasta,9000000,20302029,Dana darurat,30,Penabung Disiplin
+U0707,Nasabah0707,wanita,21,Yogyakarta,Guru,10000000,9081350,Liburan,37,Numpang Lewat
+U0708,Nasabah0708,pria,29,Jakarta,Guru,10000000,33139230,Dana darurat,51,Konsumtif
+U0709,Nasabah0709,wanita,48,Makassar,Wiraswasta,5000000,8857225,Menikah,53,Konsumtif
+U0710,Nasabah0710,pria,20,Medan,Guru,12000000,31919022,Liburan,35,Berkembang
+U0711,Nasabah0711,wanita,36,Bandung,Freelancer,9000000,21304702,Dana pensiun,58,Penabung Disiplin
+U0712,Nasabah0712,pria,48,Jakarta,Guru,7000000,10154268,Dana pendidikan anak,63,Numpang Lewat
+U0713,Nasabah0713,wanita,41,Yogyakarta,Karyawan BUMN,5000000,6484905,Dana pendidikan anak,55,Konsumtif
+U0714,Nasabah0714,pria,25,Surabaya,Karyawan swasta,10000000,24242389,Dana pensiun,33,Numpang Lewat
+U0715,Nasabah0715,wanita,20,Makassar,Freelancer,5000000,7755613,Dana pendidikan anak,23,Konsumtif
+U0716,Nasabah0716,pria,34,Medan,Freelancer,4000000,1832895,Menikah,47,Defisit
+U0717,Nasabah0717,wanita,35,Makassar,PNS,9000000,11972103,Dana pensiun,53,Numpang Lewat
+U0718,Nasabah0718,pria,39,Surabaya,Karyawan swasta,5000000,8402252,Dana pensiun,47,Penabung Disiplin
+U0719,Nasabah0719,wanita,28,Medan,PNS,7000000,8275483,Beli mobil,40,Berkembang
+U0720,Nasabah0720,pria,35,Bandung,Karyawan BUMN,8000000,13932034,Beli mobil,41,Konsumtif
+U0721,Nasabah0721,wanita,25,Semarang,Karyawan BUMN,5000000,9343862,Beli mobil,47,Berkembang
+U0722,Nasabah0722,pria,36,Medan,Guru,10000000,26152462,Menikah,45,Penabung Disiplin
+U0723,Nasabah0723,wanita,28,Makassar,Guru,10000000,18174469,Beli rumah,43,Konsumtif
+U0724,Nasabah0724,pria,32,Denpasar,Karyawan BUMN,4000000,4534675,Liburan,49,Berkembang
+U0725,Nasabah0725,wanita,28,Surabaya,Guru,8000000,19778576,Beli mobil,47,Penabung Disiplin
+U0726,Nasabah0726,pria,23,Medan,Wiraswasta,5000000,7768665,Menikah,26,Konsumtif
+U0727,Nasabah0727,wanita,41,Makassar,Guru,7000000,10212223,Beli rumah,46,Berkembang
+U0728,Nasabah0728,pria,20,Bandung,Wiraswasta,6000000,10194777,Liburan,40,Penabung Disiplin
+U0729,Nasabah0729,wanita,20,Semarang,PNS,10000000,26025997,Beli rumah,24,Penabung Disiplin
+U0730,Nasabah0730,pria,30,Makassar,Wiraswasta,4000000,5459764,Dana pendidikan anak,50,Penabung Disiplin
+U0731,Nasabah0731,wanita,22,Medan,Guru,4000000,7078637,Dana pendidikan anak,34,Konsumtif
+U0732,Nasabah0732,pria,23,Jakarta,Wiraswasta,7000000,17248076,Dana pensiun,44,Penabung Disiplin
+U0733,Nasabah0733,wanita,37,Medan,Karyawan swasta,8000000,12913713,Dana pendidikan anak,59,Berkembang
+U0734,Nasabah0734,pria,33,Semarang,Freelancer,9000000,16617950,Beli rumah,54,Berkembang
+U0735,Nasabah0735,wanita,31,Makassar,Wiraswasta,6000000,11012610,Dana darurat,35,Penabung Disiplin
+U0736,Nasabah0736,pria,20,Semarang,PNS,8000000,16335382,Dana darurat,37,Konsumtif
+U0737,Nasabah0737,wanita,28,Semarang,PNS,12000000,31941400,Beli mobil,48,Penabung Disiplin
+U0738,Nasabah0738,pria,27,Surabaya,Freelancer,10000000,26888270,Liburan,43,Berkembang
+U0739,Nasabah0739,wanita,20,Semarang,Guru,12000000,32569701,Dana darurat,23,Konsumtif
+U0740,Nasabah0740,pria,44,Surabaya,Karyawan BUMN,12000000,21241842,Dana pendidikan anak,59,Konsumtif
+U0741,Nasabah0741,wanita,25,Makassar,Karyawan swasta,6000000,10293862,Liburan,36,Berkembang
+U0742,Nasabah0742,pria,29,Semarang,Wiraswasta,4000000,1789123,Dana darurat,46,Defisit
+U0743,Nasabah0743,wanita,28,Semarang,Karyawan swasta,9000000,13189168,Dana pensiun,33,Berkembang
+U0744,Nasabah0744,pria,20,Bandung,PNS,6000000,13290489,Beli rumah,25,Berkembang
+U0745,Nasabah0745,wanita,42,Denpasar,Karyawan BUMN,7000000,12900526,Liburan,59,Konsumtif
+U0746,Nasabah0746,pria,29,Denpasar,Guru,12000000,37113294,Dana darurat,45,Penabung Disiplin
+U0747,Nasabah0747,wanita,26,Denpasar,Karyawan swasta,12000000,21195912,Menikah,35,Konsumtif
+U0748,Nasabah0748,pria,29,Denpasar,Karyawan swasta,4500000,4550192,Menikah,47,Berkembang
+U0749,Nasabah0749,wanita,35,Semarang,Karyawan swasta,5000000,3461270,Beli rumah,53,Defisit
+U0750,Nasabah0750,pria,33,Denpasar,Wiraswasta,10000000,33945630,Liburan,54,Konsumtif
+U0751,Nasabah0751,wanita,30,Semarang,Karyawan swasta,7000000,12081283,Dana pendidikan anak,41,Konsumtif
+U0752,Nasabah0752,pria,20,Denpasar,Karyawan swasta,4500000,2579441,Beli mobil,30,Defisit
+U0753,Nasabah0753,wanita,26,Denpasar,Karyawan BUMN,6000000,7665068,Dana pendidikan anak,50,Berkembang
+U0754,Nasabah0754,pria,30,Medan,PNS,4000000,5551956,Dana darurat,37,Penabung Disiplin
+U0755,Nasabah0755,wanita,31,Semarang,PNS,10000000,22741618,Beli mobil,46,Penabung Disiplin
+U0756,Nasabah0756,pria,20,Medan,Karyawan BUMN,10000000,15753358,Dana pendidikan anak,29,Berkembang
+U0757,Nasabah0757,wanita,33,Bandung,PNS,8000000,9856972,Dana pendidikan anak,45,Berkembang
+U0758,Nasabah0758,pria,29,Denpasar,Wiraswasta,4000000,2597846,Liburan,47,Defisit
+U0759,Nasabah0759,wanita,25,Yogyakarta,Karyawan swasta,5000000,3319189,Liburan,34,Defisit
+U0760,Nasabah0760,pria,29,Medan,Wiraswasta,6000000,8092430,Beli rumah,33,Berkembang
+U0761,Nasabah0761,wanita,29,Bandung,PNS,12000000,39412690,Dana pensiun,42,Konsumtif
+U0762,Nasabah0762,pria,29,Yogyakarta,Guru,7000000,15718613,Beli mobil,53,Konsumtif
+U0763,Nasabah0763,wanita,34,Makassar,PNS,12000000,28465623,Dana pendidikan anak,47,Berkembang
+U0764,Nasabah0764,pria,27,Semarang,PNS,8000000,16595206,Dana pendidikan anak,40,Berkembang
+U0765,Nasabah0765,wanita,21,Makassar,Karyawan swasta,8000000,10195381,Dana pendidikan anak,31,Numpang Lewat
+U0766,Nasabah0766,pria,20,Medan,Wiraswasta,7000000,8502448,Dana darurat,33,Konsumtif
+U0767,Nasabah0767,wanita,37,Denpasar,PNS,8000000,16993021,Beli mobil,51,Penabung Disiplin
+U0768,Nasabah0768,pria,29,Semarang,Karyawan swasta,10000000,22284026,Beli mobil,39,Konsumtif
+U0769,Nasabah0769,wanita,37,Denpasar,Karyawan BUMN,5000000,10745067,Beli rumah,46,Penabung Disiplin
+U0770,Nasabah0770,pria,35,Denpasar,PNS,6000000,14819307,Dana pensiun,48,Penabung Disiplin
+U0771,Nasabah0771,wanita,29,Yogyakarta,Karyawan swasta,9000000,16293681,Beli mobil,39,Berkembang
+U0772,Nasabah0772,pria,23,Yogyakarta,Karyawan BUMN,7000000,11385518,Dana pensiun,36,Numpang Lewat
+U0773,Nasabah0773,wanita,36,Makassar,Guru,10000000,26999675,Liburan,40,Penabung Disiplin
+U0774,Nasabah0774,pria,29,Medan,Wiraswasta,4000000,3258030,Dana pensiun,53,Numpang Lewat
+U0775,Nasabah0775,wanita,20,Jakarta,Freelancer,4000000,2466772,Dana pensiun,26,Defisit
+U0776,Nasabah0776,pria,37,Jakarta,Freelancer,9000000,25229700,Liburan,57,Berkembang
+U0777,Nasabah0777,wanita,24,Yogyakarta,Guru,4500000,10456985,Dana pensiun,30,Penabung Disiplin
+U0778,Nasabah0778,pria,39,Yogyakarta,Karyawan BUMN,4500000,7654644,Beli rumah,45,Penabung Disiplin
+U0779,Nasabah0779,wanita,27,Medan,Karyawan BUMN,9000000,15749073,Liburan,47,Konsumtif
+U0780,Nasabah0780,pria,25,Makassar,Freelancer,4500000,7718505,Beli mobil,46,Konsumtif
+U0781,Nasabah0781,wanita,22,Denpasar,Guru,9000000,11601596,Beli rumah,32,Berkembang
+U0782,Nasabah0782,pria,31,Makassar,Karyawan BUMN,10000000,20824747,Beli mobil,38,Penabung Disiplin
+U0783,Nasabah0783,wanita,25,Yogyakarta,Freelancer,6000000,757125,Dana darurat,36,Defisit
+U0784,Nasabah0784,pria,29,Surabaya,Guru,4500000,6288811,Beli rumah,34,Penabung Disiplin
+U0785,Nasabah0785,wanita,21,Jakarta,PNS,10000000,23133991,Beli rumah,44,Penabung Disiplin
+U0786,Nasabah0786,pria,40,Semarang,Guru,8000000,11428582,Dana pendidikan anak,56,Konsumtif
+U0787,Nasabah0787,wanita,31,Denpasar,Wiraswasta,4000000,2723261,Dana pendidikan anak,45,Defisit
+U0788,Nasabah0788,pria,22,Semarang,Karyawan swasta,7000000,18241021,Dana darurat,37,Penabung Disiplin
+U0789,Nasabah0789,wanita,21,Surabaya,Karyawan BUMN,9000000,19635771,Dana pensiun,40,Konsumtif
+U0790,Nasabah0790,pria,39,Surabaya,Guru,5000000,3191209,Dana darurat,45,Defisit
+U0791,Nasabah0791,wanita,29,Semarang,Wiraswasta,8000000,17898944,Menikah,53,Berkembang
+U0792,Nasabah0792,pria,25,Yogyakarta,PNS,4500000,5215854,Liburan,31,Numpang Lewat
+U0793,Nasabah0793,wanita,27,Medan,Karyawan swasta,4000000,4514641,Menikah,39,Defisit
+U0794,Nasabah0794,pria,44,Makassar,Guru,12000000,22283278,Menikah,66,Berkembang
+U0795,Nasabah0795,wanita,34,Surabaya,Wiraswasta,5000000,7732372,Dana darurat,45,Konsumtif
+U0796,Nasabah0796,pria,31,Medan,Karyawan BUMN,4000000,7423158,Dana pensiun,47,Numpang Lewat
+U0797,Nasabah0797,wanita,30,Medan,Freelancer,9000000,12433039,Dana pensiun,54,Defisit
+U0798,Nasabah0798,pria,38,Jakarta,Freelancer,4500000,6148862,Dana darurat,54,Berkembang
+U0799,Nasabah0799,wanita,31,Jakarta,Wiraswasta,12000000,20935551,Beli rumah,34,Berkembang
+U0800,Nasabah0800,pria,36,Bandung,PNS,4000000,9413983,Dana darurat,50,Penabung Disiplin
+U0801,Nasabah0801,wanita,23,Semarang,Guru,9000000,18704447,Dana pensiun,28,Penabung Disiplin
+U0802,Nasabah0802,pria,20,Bandung,PNS,4000000,6362372,Beli mobil,42,Numpang Lewat
+U0803,Nasabah0803,wanita,35,Denpasar,Guru,12000000,30367903,Dana darurat,51,Berkembang
+U0804,Nasabah0804,pria,23,Yogyakarta,PNS,9000000,16635536,Dana darurat,45,Berkembang
+U0805,Nasabah0805,wanita,41,Yogyakarta,Freelancer,12000000,31250595,Beli mobil,44,Konsumtif
+U0806,Nasabah0806,pria,34,Jakarta,Guru,7000000,14387976,Beli mobil,49,Penabung Disiplin
+U0807,Nasabah0807,wanita,28,Jakarta,Karyawan swasta,10000000,19229923,Beli rumah,46,Berkembang
+U0808,Nasabah0808,pria,22,Bandung,Karyawan BUMN,5000000,8210279,Beli mobil,42,Berkembang
+U0809,Nasabah0809,wanita,27,Denpasar,Karyawan BUMN,7000000,12428940,Liburan,34,Konsumtif
+U0810,Nasabah0810,pria,20,Bandung,Guru,6000000,16943074,Menikah,36,Berkembang
+U0811,Nasabah0811,wanita,33,Makassar,PNS,6000000,9479872,Menikah,39,Penabung Disiplin
+U0812,Nasabah0812,pria,32,Makassar,Karyawan swasta,12000000,28585754,Beli rumah,40,Berkembang
+U0813,Nasabah0813,wanita,26,Bandung,PNS,8000000,12549119,Dana pensiun,46,Numpang Lewat
+U0814,Nasabah0814,pria,25,Semarang,Guru,4000000,2770611,Beli rumah,30,Defisit
+U0815,Nasabah0815,wanita,23,Medan,Karyawan swasta,12000000,28372829,Dana pendidikan anak,33,Penabung Disiplin
+U0816,Nasabah0816,pria,31,Yogyakarta,Karyawan BUMN,10000000,19066950,Dana pendidikan anak,35,Penabung Disiplin
+U0817,Nasabah0817,wanita,31,Surabaya,Guru,8000000,11314951,Liburan,35,Berkembang
+U0818,Nasabah0818,pria,20,Yogyakarta,Freelancer,10000000,28059763,Dana pensiun,29,Konsumtif
+U0819,Nasabah0819,wanita,20,Makassar,Wiraswasta,10000000,20535006,Menikah,28,Berkembang
+U0820,Nasabah0820,pria,42,Makassar,Karyawan BUMN,6000000,6278517,Liburan,59,Berkembang
+U0821,Nasabah0821,wanita,24,Jakarta,Guru,7000000,12861960,Beli rumah,38,Penabung Disiplin
+U0822,Nasabah0822,pria,27,Bandung,Freelancer,10000000,15671083,Beli mobil,30,Numpang Lewat
+U0823,Nasabah0823,wanita,42,Jakarta,PNS,5000000,9806648,Beli rumah,49,Penabung Disiplin
+U0824,Nasabah0824,pria,32,Medan,Wiraswasta,8000000,11736331,Dana pendidikan anak,37,Berkembang
+U0825,Nasabah0825,wanita,21,Jakarta,Karyawan swasta,10000000,25165302,Beli mobil,31,Penabung Disiplin
+U0826,Nasabah0826,pria,23,Semarang,Karyawan swasta,4000000,1745656,Beli rumah,28,Defisit
+U0827,Nasabah0827,wanita,31,Makassar,Wiraswasta,9000000,21059205,Beli rumah,47,Berkembang
+U0828,Nasabah0828,pria,23,Surabaya,Karyawan swasta,5000000,13343367,Dana pendidikan anak,31,Penabung Disiplin
+U0829,Nasabah0829,wanita,23,Semarang,PNS,4500000,6160066,Dana pensiun,40,Berkembang
+U0830,Nasabah0830,pria,32,Yogyakarta,Guru,10000000,17989779,Dana pendidikan anak,51,Penabung Disiplin
+U0831,Nasabah0831,wanita,20,Medan,Karyawan swasta,4500000,5936133,Beli rumah,26,Berkembang
+U0832,Nasabah0832,pria,20,Jakarta,PNS,9000000,21625545,Beli rumah,39,Penabung Disiplin
+U0833,Nasabah0833,wanita,34,Surabaya,PNS,5000000,5643030,Menikah,55,Penabung Disiplin
+U0834,Nasabah0834,pria,26,Yogyakarta,PNS,8000000,13779231,Liburan,43,Konsumtif
+U0835,Nasabah0835,wanita,36,Surabaya,Karyawan BUMN,5000000,9012234,Beli rumah,52,Berkembang
+U0836,Nasabah0836,pria,22,Medan,Freelancer,10000000,21051453,Liburan,44,Numpang Lewat
+U0837,Nasabah0837,wanita,20,Denpasar,Karyawan swasta,12000000,32164908,Beli mobil,40,Berkembang
+U0838,Nasabah0838,pria,22,Jakarta,PNS,4000000,3527771,Beli mobil,34,Numpang Lewat
+U0839,Nasabah0839,wanita,45,Medan,PNS,5000000,10700433,Dana pensiun,66,Penabung Disiplin
+U0840,Nasabah0840,pria,36,Yogyakarta,Wiraswasta,4500000,1813809,Dana darurat,40,Defisit
+U0841,Nasabah0841,wanita,34,Makassar,Karyawan BUMN,9000000,16520952,Dana pensiun,47,Berkembang
+U0842,Nasabah0842,pria,42,Makassar,Karyawan BUMN,9000000,14691263,Dana pendidikan anak,53,Penabung Disiplin
+U0843,Nasabah0843,wanita,23,Bandung,Karyawan swasta,5000000,10906336,Liburan,27,Penabung Disiplin
+U0844,Nasabah0844,pria,22,Semarang,Freelancer,6000000,6372276,Liburan,28,Berkembang
+U0845,Nasabah0845,wanita,32,Surabaya,PNS,10000000,18390350,Dana pensiun,52,Numpang Lewat
+U0846,Nasabah0846,pria,30,Makassar,PNS,12000000,30502360,Dana pensiun,53,Berkembang
+U0847,Nasabah0847,wanita,26,Bandung,Freelancer,5000000,5941235,Dana darurat,37,Numpang Lewat
+U0848,Nasabah0848,pria,30,Semarang,Karyawan swasta,4000000,4171173,Beli mobil,53,Penabung Disiplin
+U0849,Nasabah0849,wanita,43,Makassar,Guru,4500000,4923946,Dana pensiun,61,Berkembang
+U0850,Nasabah0850,pria,20,Medan,Wiraswasta,10000000,22186928,Beli mobil,31,Penabung Disiplin
+U0851,Nasabah0851,wanita,36,Surabaya,Wiraswasta,4500000,8292066,Dana pendidikan anak,51,Numpang Lewat
+U0852,Nasabah0852,pria,28,Jakarta,Guru,7000000,10516953,Menikah,46,Konsumtif
+U0853,Nasabah0853,wanita,24,Jakarta,Freelancer,12000000,34012678,Dana pensiun,43,Penabung Disiplin
+U0854,Nasabah0854,pria,34,Medan,Karyawan BUMN,7000000,13518253,Beli rumah,43,Berkembang
+U0855,Nasabah0855,wanita,36,Makassar,Karyawan BUMN,7000000,14147377,Beli mobil,57,Penabung Disiplin
+U0856,Nasabah0856,pria,29,Denpasar,Guru,4500000,2511962,Liburan,45,Defisit
+U0857,Nasabah0857,wanita,27,Jakarta,Guru,6000000,10413651,Liburan,49,Berkembang
+U0858,Nasabah0858,pria,20,Makassar,Wiraswasta,6000000,10683210,Dana darurat,44,Berkembang
+U0859,Nasabah0859,wanita,28,Bandung,PNS,4000000,3372166,Liburan,48,Berkembang
+U0860,Nasabah0860,pria,31,Makassar,Guru,12000000,22942079,Menikah,54,Berkembang
+U0861,Nasabah0861,wanita,35,Semarang,Karyawan BUMN,5000000,3513714,Dana pensiun,39,Numpang Lewat
+U0862,Nasabah0862,pria,21,Medan,Karyawan swasta,4000000,2897638,Liburan,44,Defisit
+U0863,Nasabah0863,wanita,24,Medan,Karyawan swasta,7000000,17575305,Menikah,41,Penabung Disiplin
+U0864,Nasabah0864,pria,26,Surabaya,Wiraswasta,6000000,13069032,Menikah,50,Penabung Disiplin
+U0865,Nasabah0865,wanita,37,Surabaya,Karyawan BUMN,7000000,7860446,Dana pensiun,58,Berkembang
+U0866,Nasabah0866,pria,24,Denpasar,Freelancer,5000000,7417034,Dana darurat,44,Numpang Lewat
+U0867,Nasabah0867,wanita,39,Surabaya,Freelancer,12000000,31083246,Beli rumah,58,Konsumtif
+U0868,Nasabah0868,pria,35,Yogyakarta,Karyawan swasta,5000000,3649373,Menikah,55,Konsumtif
+U0869,Nasabah0869,wanita,32,Semarang,Freelancer,7000000,9920852,Liburan,39,Konsumtif
+U0870,Nasabah0870,pria,22,Semarang,Karyawan swasta,4500000,1895605,Beli mobil,46,Defisit
+U0871,Nasabah0871,wanita,20,Denpasar,Freelancer,4000000,2008234,Dana pensiun,38,Defisit
+U0872,Nasabah0872,pria,25,Denpasar,Karyawan BUMN,4500000,2084365,Beli mobil,49,Defisit
+U0873,Nasabah0873,wanita,20,Denpasar,Karyawan swasta,9000000,22233200,Dana pendidikan anak,28,Berkembang
+U0874,Nasabah0874,pria,24,Jakarta,Guru,6000000,5601809,Beli mobil,37,Numpang Lewat
+U0875,Nasabah0875,wanita,20,Semarang,Guru,4000000,2435911,Menikah,37,Defisit
+U0876,Nasabah0876,pria,25,Medan,Guru,7000000,20742468,Beli mobil,40,Penabung Disiplin
+U0877,Nasabah0877,wanita,39,Surabaya,Karyawan swasta,4000000,5588170,Dana pendidikan anak,47,Berkembang
+U0878,Nasabah0878,pria,30,Medan,Wiraswasta,12000000,21410080,Dana pensiun,43,Numpang Lewat
+U0879,Nasabah0879,wanita,33,Makassar,Wiraswasta,10000000,24097349,Beli mobil,44,Berkembang
+U0880,Nasabah0880,pria,26,Medan,Karyawan BUMN,10000000,16358827,Menikah,43,Konsumtif
+U0881,Nasabah0881,wanita,24,Surabaya,Freelancer,12000000,27343557,Dana darurat,29,Penabung Disiplin
+U0882,Nasabah0882,pria,32,Surabaya,Karyawan BUMN,8000000,14492197,Dana pendidikan anak,55,Konsumtif
+U0883,Nasabah0883,wanita,22,Jakarta,Freelancer,5000000,9574265,Liburan,44,Berkembang
+U0884,Nasabah0884,pria,30,Makassar,Karyawan BUMN,10000000,20397213,Menikah,51,Berkembang
+U0885,Nasabah0885,wanita,30,Semarang,PNS,9000000,10967360,Liburan,40,Berkembang
+U0886,Nasabah0886,pria,41,Surabaya,Karyawan BUMN,9000000,18502488,Dana pendidikan anak,52,Numpang Lewat
+U0887,Nasabah0887,wanita,24,Denpasar,Karyawan swasta,5000000,7598006,Beli mobil,42,Penabung Disiplin
+U0888,Nasabah0888,pria,29,Jakarta,Karyawan BUMN,8000000,16352862,Liburan,35,Konsumtif
+U0889,Nasabah0889,wanita,27,Makassar,Freelancer,6000000,11081345,Liburan,37,Konsumtif
+U0890,Nasabah0890,pria,38,Yogyakarta,Guru,8000000,18906537,Dana darurat,52,Penabung Disiplin
+U0891,Nasabah0891,wanita,21,Surabaya,Karyawan BUMN,4500000,3466400,Dana darurat,33,Konsumtif
+U0892,Nasabah0892,pria,24,Yogyakarta,Wiraswasta,10000000,18257263,Dana darurat,34,Konsumtif
+U0893,Nasabah0893,wanita,20,Surabaya,Karyawan swasta,4500000,4721061,Dana pensiun,38,Berkembang
+U0894,Nasabah0894,pria,32,Bandung,PNS,4500000,8366410,Beli mobil,36,Penabung Disiplin
+U0895,Nasabah0895,wanita,26,Makassar,Wiraswasta,7000000,11044193,Beli mobil,30,Berkembang
+U0896,Nasabah0896,pria,28,Yogyakarta,PNS,5000000,3124109,Beli rumah,45,Defisit
+U0897,Nasabah0897,wanita,34,Bandung,Freelancer,6000000,13077487,Dana pensiun,37,Penabung Disiplin
+U0898,Nasabah0898,pria,31,Jakarta,Wiraswasta,6000000,8602445,Liburan,49,Penabung Disiplin
+U0899,Nasabah0899,wanita,30,Makassar,Karyawan swasta,10000000,22768107,Dana darurat,47,Berkembang
+U0900,Nasabah0900,pria,29,Surabaya,Karyawan BUMN,4500000,9694944,Beli rumah,45,Penabung Disiplin
+U0901,Nasabah0901,wanita,27,Surabaya,Wiraswasta,8000000,16328925,Beli rumah,36,Penabung Disiplin
+U0902,Nasabah0902,pria,27,Yogyakarta,Karyawan BUMN,5000000,4545448,Dana darurat,33,Defisit
+U0903,Nasabah0903,wanita,30,Bandung,Wiraswasta,9000000,24806359,Menikah,48,Penabung Disiplin
+U0904,Nasabah0904,pria,35,Bandung,Wiraswasta,8000000,14851172,Dana pendidikan anak,51,Numpang Lewat
+U0905,Nasabah0905,wanita,22,Medan,Guru,10000000,17432210,Beli rumah,41,Berkembang
+U0906,Nasabah0906,pria,28,Yogyakarta,Karyawan swasta,4500000,6497818,Beli rumah,32,Numpang Lewat
+U0907,Nasabah0907,wanita,24,Semarang,Karyawan swasta,6000000,13077363,Beli rumah,35,Penabung Disiplin
+U0908,Nasabah0908,pria,21,Denpasar,Guru,10000000,14828388,Beli rumah,42,Berkembang
+U0909,Nasabah0909,wanita,20,Surabaya,Karyawan swasta,7000000,15137009,Dana pendidikan anak,34,Konsumtif
+U0910,Nasabah0910,pria,31,Medan,Karyawan swasta,10000000,15633856,Dana pendidikan anak,44,Konsumtif
+U0911,Nasabah0911,wanita,30,Makassar,Freelancer,4500000,3083505,Beli rumah,36,Defisit
+U0912,Nasabah0912,pria,20,Jakarta,Wiraswasta,4000000,1976303,Beli rumah,40,Defisit
+U0913,Nasabah0913,wanita,35,Bandung,Wiraswasta,9000000,15523732,Beli mobil,58,Numpang Lewat
+U0914,Nasabah0914,pria,37,Surabaya,Guru,8000000,18184530,Liburan,45,Penabung Disiplin
+U0915,Nasabah0915,wanita,29,Denpasar,Freelancer,10000000,19511355,Dana pensiun,45,Berkembang
+U0916,Nasabah0916,pria,30,Yogyakarta,Freelancer,12000000,29590882,Dana pensiun,51,Penabung Disiplin
+U0917,Nasabah0917,wanita,33,Makassar,Karyawan BUMN,4000000,3359276,Beli mobil,43,Defisit
+U0918,Nasabah0918,pria,35,Denpasar,PNS,8000000,24435129,Beli mobil,38,Penabung Disiplin
+U0919,Nasabah0919,wanita,20,Yogyakarta,Freelancer,7000000,16792418,Dana darurat,28,Berkembang
+U0920,Nasabah0920,pria,25,Surabaya,Guru,5000000,7312442,Dana pendidikan anak,28,Penabung Disiplin
+U0921,Nasabah0921,wanita,27,Surabaya,Karyawan BUMN,7000000,19151802,Menikah,47,Konsumtif
+U0922,Nasabah0922,pria,28,Denpasar,Karyawan BUMN,6000000,9605448,Dana darurat,49,Penabung Disiplin
+U0923,Nasabah0923,wanita,43,Jakarta,Freelancer,10000000,13390799,Dana pensiun,53,Penabung Disiplin
+U0924,Nasabah0924,pria,40,Semarang,Karyawan BUMN,12000000,21802710,Dana pendidikan anak,44,Numpang Lewat
+U0925,Nasabah0925,wanita,21,Surabaya,Freelancer,4500000,7738362,Liburan,27,Penabung Disiplin
+U0926,Nasabah0926,pria,26,Medan,Karyawan BUMN,10000000,14560544,Dana pendidikan anak,40,Berkembang
+U0927,Nasabah0927,wanita,24,Jakarta,Guru,4000000,2739739,Dana pendidikan anak,37,Defisit
+U0928,Nasabah0928,pria,32,Jakarta,Guru,9000000,7780526,Dana darurat,49,Berkembang
+U0929,Nasabah0929,wanita,31,Bandung,Karyawan BUMN,5000000,9698650,Beli mobil,53,Konsumtif
+U0930,Nasabah0930,pria,29,Bandung,Karyawan BUMN,12000000,22659984,Dana pendidikan anak,50,Numpang Lewat
+U0931,Nasabah0931,wanita,39,Yogyakarta,Freelancer,12000000,32579135,Menikah,46,Konsumtif
+U0932,Nasabah0932,pria,29,Makassar,Karyawan BUMN,10000000,30954098,Beli rumah,51,Konsumtif
+U0933,Nasabah0933,wanita,27,Denpasar,Guru,8000000,14851195,Dana darurat,32,Numpang Lewat
+U0934,Nasabah0934,pria,35,Yogyakarta,Guru,12000000,38889635,Beli mobil,40,Konsumtif
+U0935,Nasabah0935,wanita,40,Denpasar,Freelancer,4500000,5866911,Dana pendidikan anak,47,Numpang Lewat
+U0936,Nasabah0936,pria,22,Yogyakarta,Freelancer,10000000,19611046,Beli mobil,35,Berkembang
+U0937,Nasabah0937,wanita,20,Surabaya,PNS,7000000,10006197,Beli rumah,32,Berkembang
+U0938,Nasabah0938,pria,33,Jakarta,Karyawan swasta,4000000,2292669,Beli rumah,44,Defisit
+U0939,Nasabah0939,wanita,25,Yogyakarta,PNS,4000000,2775420,Beli mobil,34,Defisit
+U0940,Nasabah0940,pria,37,Jakarta,Freelancer,12000000,31928146,Dana pendidikan anak,61,Berkembang
+U0941,Nasabah0941,wanita,20,Medan,PNS,10000000,24324311,Liburan,40,Penabung Disiplin
+U0942,Nasabah0942,pria,26,Jakarta,Guru,4000000,6012889,Dana darurat,31,Penabung Disiplin
+U0943,Nasabah0943,wanita,36,Denpasar,PNS,7000000,12881989,Menikah,42,Konsumtif
+U0944,Nasabah0944,pria,28,Semarang,Freelancer,4000000,2547377,Dana pensiun,41,Defisit
+U0945,Nasabah0945,wanita,29,Jakarta,Guru,9000000,15852533,Beli mobil,50,Berkembang
+U0946,Nasabah0946,pria,29,Yogyakarta,Karyawan swasta,10000000,28246912,Dana pensiun,40,Penabung Disiplin
+U0947,Nasabah0947,wanita,31,Medan,Karyawan BUMN,5000000,4484157,Dana pendidikan anak,44,Defisit
+U0948,Nasabah0948,pria,31,Medan,Guru,4500000,5405724,Beli mobil,53,Penabung Disiplin
+U0949,Nasabah0949,wanita,30,Medan,Guru,8000000,18077694,Dana pendidikan anak,45,Konsumtif
+U0950,Nasabah0950,pria,30,Surabaya,Guru,5000000,10733634,Beli rumah,34,Penabung Disiplin
+U0951,Nasabah0951,wanita,27,Jakarta,Wiraswasta,10000000,13662226,Beli mobil,47,Berkembang
+U0952,Nasabah0952,pria,45,Jakarta,Guru,9000000,24390006,Menikah,52,Konsumtif
+U0953,Nasabah0953,wanita,30,Makassar,Wiraswasta,9000000,11724877,Menikah,50,Numpang Lewat
+U0954,Nasabah0954,pria,22,Surabaya,Guru,6000000,12165772,Beli mobil,28,Penabung Disiplin
+U0955,Nasabah0955,wanita,35,Medan,Freelancer,9000000,15034470,Beli mobil,53,Berkembang
+U0956,Nasabah0956,pria,20,Bandung,Freelancer,4500000,7696954,Beli mobil,38,Konsumtif
+U0957,Nasabah0957,wanita,30,Jakarta,Karyawan swasta,10000000,23399418,Beli mobil,48,Konsumtif
+U0958,Nasabah0958,pria,22,Jakarta,PNS,9000000,18930106,Liburan,42,Numpang Lewat
+U0959,Nasabah0959,wanita,26,Jakarta,Guru,10000000,19682741,Beli rumah,38,Numpang Lewat
+U0960,Nasabah0960,pria,20,Jakarta,Freelancer,12000000,25053866,Liburan,32,Penabung Disiplin
+U0961,Nasabah0961,wanita,30,Makassar,Karyawan swasta,6000000,9261268,Beli mobil,45,Penabung Disiplin
+U0962,Nasabah0962,pria,28,Medan,Karyawan swasta,12000000,28651905,Menikah,38,Penabung Disiplin
+U0963,Nasabah0963,wanita,32,Surabaya,Karyawan BUMN,6000000,9078134,Liburan,54,Berkembang
+U0964,Nasabah0964,pria,39,Bandung,PNS,5000000,3544851,Dana pensiun,46,Defisit
+U0965,Nasabah0965,wanita,25,Yogyakarta,Karyawan swasta,8000000,22088332,Liburan,32,Berkembang
+U0966,Nasabah0966,pria,30,Makassar,Karyawan swasta,7000000,8868972,Dana darurat,42,Berkembang
+U0967,Nasabah0967,wanita,23,Surabaya,Wiraswasta,9000000,11370318,Dana darurat,32,Berkembang
+U0968,Nasabah0968,pria,34,Makassar,Wiraswasta,7000000,10725756,Liburan,57,Defisit
+U0969,Nasabah0969,wanita,20,Medan,Karyawan BUMN,4500000,4092097,Liburan,32,Numpang Lewat
+U0970,Nasabah0970,pria,23,Bandung,Freelancer,4000000,8165781,Menikah,36,Penabung Disiplin
+U0971,Nasabah0971,wanita,44,Yogyakarta,Karyawan BUMN,4000000,3177580,Dana darurat,54,Defisit
+U0972,Nasabah0972,pria,26,Bandung,Guru,8000000,17069995,Dana pendidikan anak,44,Berkembang
+U0973,Nasabah0973,wanita,20,Medan,Wiraswasta,5000000,2728480,Dana pensiun,37,Defisit
+U0974,Nasabah0974,pria,37,Surabaya,Guru,12000000,22704521,Liburan,50,Berkembang
+U0975,Nasabah0975,wanita,27,Medan,Wiraswasta,12000000,24007020,Dana pensiun,38,Penabung Disiplin
+U0976,Nasabah0976,pria,24,Denpasar,PNS,6000000,10977932,Liburan,29,Berkembang
+U0977,Nasabah0977,wanita,34,Jakarta,Karyawan BUMN,4500000,5029927,Dana pendidikan anak,38,Defisit
+U0978,Nasabah0978,pria,20,Makassar,Wiraswasta,9000000,17459442,Dana darurat,42,Berkembang
+U0979,Nasabah0979,wanita,27,Denpasar,Karyawan swasta,8000000,15333469,Dana darurat,51,Penabung Disiplin
+U0980,Nasabah0980,pria,24,Denpasar,PNS,12000000,26821910,Beli rumah,32,Berkembang
+U0981,Nasabah0981,wanita,32,Bandung,Karyawan swasta,6000000,7251988,Dana pensiun,49,Berkembang
+U0982,Nasabah0982,pria,29,Jakarta,Wiraswasta,4500000,7785167,Beli mobil,48,Numpang Lewat
+U0983,Nasabah0983,wanita,33,Denpasar,PNS,4000000,1409263,Beli mobil,37,Defisit
+U0984,Nasabah0984,pria,37,Makassar,Guru,10000000,10000244,Liburan,56,Numpang Lewat
+U0985,Nasabah0985,wanita,26,Yogyakarta,PNS,8000000,13846050,Liburan,35,Konsumtif
+U0986,Nasabah0986,pria,32,Yogyakarta,Karyawan BUMN,10000000,17235845,Beli rumah,48,Berkembang
+U0987,Nasabah0987,wanita,20,Bandung,Wiraswasta,6000000,9199971,Beli mobil,36,Berkembang
+U0988,Nasabah0988,pria,41,Surabaya,PNS,6000000,14355075,Liburan,46,Konsumtif
+U0989,Nasabah0989,wanita,22,Jakarta,PNS,12000000,32917138,Liburan,27,Konsumtif
+U0990,Nasabah0990,pria,41,Semarang,PNS,7000000,5678892,Liburan,58,Numpang Lewat
+U0991,Nasabah0991,wanita,31,Yogyakarta,PNS,10000000,21155504,Dana pensiun,45,Numpang Lewat
+U0992,Nasabah0992,pria,20,Denpasar,Karyawan swasta,7000000,9940598,Beli mobil,35,Numpang Lewat
+U0993,Nasabah0993,wanita,26,Bandung,PNS,5000000,3060819,Beli mobil,40,Defisit
+U0994,Nasabah0994,pria,20,Makassar,Karyawan BUMN,4500000,10683492,Menikah,29,Berkembang
+U0995,Nasabah0995,wanita,30,Denpasar,Guru,10000000,25130894,Liburan,36,Penabung Disiplin
+U0996,Nasabah0996,pria,27,Bandung,Wiraswasta,4000000,2907018,Dana darurat,46,Defisit
+U0997,Nasabah0997,wanita,26,Jakarta,Guru,10000000,22858273,Liburan,42,Konsumtif
+U0998,Nasabah0998,pria,30,Makassar,Wiraswasta,4500000,7852829,Dana pendidikan anak,45,Konsumtif
+U0999,Nasabah0999,wanita,36,Yogyakarta,Wiraswasta,9000000,27061977,Dana pensiun,49,Penabung Disiplin
+U1000,Nasabah1000,pria,37,Medan,Freelancer,10000000,19313588,Beli rumah,52,Konsumtif

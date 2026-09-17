@@ -1,0 +1,13 @@
+promo_id,merchant_id,kategori,judul,mekanisme,nilai,satuan,min_transaksi,maks_manfaat,kuota_per_user,metode_bayar,mulai,berakhir,target_label,bantu_nabung,syarat
+PR001,M001,Kopi,Cashback 20% Kopi Kawan,Cashback,20,persen,30000,15000,4,QRIS wondr,2026-09-01,2026-10-31,Semua,False,
+PR002,M002,Kopi,Potongan Rp10.000 Ruang Seduh,Potongan tetap,10000,rupiah,40000,10000,8,QRIS wondr,2026-09-01,2026-10-15,Semua,False,
+PR003,,Kopi,Cashback 5% Semua Kedai Kopi,Cashback,5,persen,15000,5000,10,QRIS wondr,2026-08-15,2026-11-30,Semua,False,
+PR004,M004,Makan,Diskon 15% Nasi Bunda,Diskon,15,persen,20000,12000,6,QRIS wondr,2026-09-01,2026-10-31,Semua,False,Berlaku Senin sampai Jumat
+PR005,M006,Transportasi,Potongan Rp5.000 JalanYuk,Potongan tetap,5000,rupiah,15000,5000,12,QRIS wondr,2026-09-01,2026-11-30,Semua,False,
+PR006,,Tagihan,Bebas Biaya Admin Bayar Tagihan,Bebas admin,0,rupiah,0,5000,99,QRIS wondr,2026-08-01,2026-12-31,Semua,True,
+PR007,,Life Goals,Bonus 2% Setoran Setelah Gajian,Bonus nabung,2,persen,50000,50000,1,QRIS wondr,2026-09-01,2026-12-31,Semua,True,Berlaku 3 hari setelah gaji masuk
+PR008,M007,Belanja Online,Cashback 5% TokoRia,Cashback,5,persen,50000,25000,3,Debit BNI,2026-09-01,2026-10-31,Semua,False,
+PR009,M008,Hiburan,Diskon Rp10.000 Bioskop Nusantara,Potongan tetap,10000,rupiah,35000,10000,2,QRIS wondr,2026-08-01,2026-08-31,Semua,False,
+PR010,M003,Kopi,Cashback 30% Kopi Titik (Terbatas),Cashback,30,persen,20000,8000,1,QRIS wondr,2026-09-15,2026-09-30,Semua,False,Kuota sangat terbatas
+PR011,M005,Makan,Diskon 10% Warung Bu Sri,Diskon,10,persen,15000,8000,8,QRIS wondr,2026-09-01,2026-11-30,Semua,False,
+PR012,,Investasi,Bonus Rp10.000 Mulai Investasi,Bonus nabung,10000,rupiah,100000,10000,1,QRIS wondr,2026-09-01,2026-12-31,Berkembang;Penabung Disiplin,True,

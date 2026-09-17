@@ -1,0 +1,9 @@
+merchant_id,merchant_nama,kategori,kota,status_mitra
+M001,Kopi Kawan,Kopi,Jakarta,Aktif
+M002,Ruang Seduh,Kopi,Jakarta,Aktif
+M003,Kopi Titik,Kopi,Bandung,Aktif
+M004,Nasi Bunda,Makan,Jakarta,Aktif
+M005,Warung Bu Sri,Makan,Surabaya,Aktif
+M006,JalanYuk,Transportasi,Jakarta,Aktif
+M007,TokoRia,Belanja Online,Jakarta,Aktif
+M008,Bioskop Nusantara,Hiburan,Jakarta,Aktif

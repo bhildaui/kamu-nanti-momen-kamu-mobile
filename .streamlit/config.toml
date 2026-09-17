@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF8500"
+backgroundColor = "#FFFFFF"
+# 3ED8D4 di opacity 50% di atas putih = #9FECEA (toml tidak dukung alpha)
+secondaryBackgroundColor = "#9FECEA"
+textColor = "#262730"

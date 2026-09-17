@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>wondr -- Preview Mobile</title>
+<style>
+  * {box-sizing: border-box;}
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    background: radial-gradient(circle at 50% 0%, #fdf3e7 0%, #eef1f4 60%, #e4e7eb 100%);
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  .label {
+    color: #52525b;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  .label b {color: #FF8500;}
+
+  /* --- bingkai HP: dibuat berlapis (ring titanium -> body gelap -> layar)
+     supaya terlihat seperti figure/hardware, bukan kotak hitam polos. --- */
+  .device-outer {
+    position: relative;
+    width: 412px;
+    height: 868px;
+    padding: 6px;
+    border-radius: 58px;
+    background: linear-gradient(155deg, #8b8d92 0%, #4b4d52 18%, #dcdde0 30%,
+                #3a3b3e 45%, #cfd0d3 58%, #45464a 75%, #8b8d92 100%);
+    box-shadow:
+      0 40px 70px -10px rgba(0,0,0,0.35),
+      0 10px 24px -6px rgba(0,0,0,0.25);
+  }
+  .device {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #0b0b0d;
+    border-radius: 54px;
+    padding: 12px;
+  }
+  .screen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 42px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.06) inset;
+  }
+  .screen iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+  /* highlight tipis di tepi layar, kesan kaca */
+  .screen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 42px;
+    pointer-events: none;
+    background: linear-gradient(160deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 12%);
+    z-index: 6;
+  }
+  /* notch + kamera */
+  .notch {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 148px;
+    height: 30px;
+    background: #0b0b0d;
+    border-radius: 16px;
+    z-index: 7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 14px;
+  }
+  .notch .lens {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, #4a5a6b, #060607 70%);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.03);
+  }
+  /* tombol fisik samping */
+  .power-btn {
+    position: absolute;
+    right: -2px;
+    top: 210px;
+    width: 4px;
+    height: 88px;
+    background: linear-gradient(90deg, #cfd0d3, #6b6c70);
+    border-radius: 2px 0 0 2px;
+  }
+  .vol-btn {
+    position: absolute;
+    left: -2px;
+    top: 160px;
+    width: 4px;
+    height: 54px;
+    background: linear-gradient(90deg, #6b6c70, #cfd0d3);
+    border-radius: 0 2px 2px 0;
+  }
+  .vol-btn.mute {top: 224px; height: 30px;}
+  /* home indicator */
+  .home-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 134px;
+    height: 5px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 3px;
+    z-index: 7;
+  }
+
+  .hint {
+    max-width: 420px;
+    text-align: center;
+    color: #71717a;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  code {
+    background: #f4f4f5;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #3f3f46;
+  }
+</style>
+</head>
+<body>
+  <div class="label">wondr <b>by BNI</b> -- Preview Mobile</div>
+
+  <div class="device-outer">
+    <div class="device">
+      <div class="notch"><div class="lens"></div></div>
+      <div class="power-btn"></div>
+      <div class="vol-btn"></div>
+      <div class="vol-btn mute"></div>
+      <div class="screen">
+        <iframe src="http://localhost:8503" title="wondr mobile preview"></iframe>
+      </div>
+      <div class="home-bar"></div>
+    </div>
+  </div>
+
+  <p class="hint">
+    Pastikan server mobile sudah jalan dulu (<code>streamlit run app.py --server.port 8503</code>
+    di folder ini), lalu buka file ini langsung di browser. Kalau layar HP di atas kosong/putih,
+    berarti server belum jalan atau portnya berbeda -- cek dan sesuaikan port di atas.
+  </p>
+</body>
+</html>
